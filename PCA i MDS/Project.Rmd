@@ -2,7 +2,10 @@
 title: "Project"
 author: "Wiktoria Kowalska, Emilia Lehmann"
 date: "2026-11-22"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
@@ -13,50 +16,143 @@ W projekcie zostały wykorzystane biblioteki:
 
 ```{r libs, message=FALSE, warning=FALSE}
 library(readr)
+library(corrplot)
 library(dplyr)
+library(psych)
 library(tidyr)
+library(factoextra)
 ```
 
-## 1. Opis Danych
+# 1. Opis danych i przygotowanie ramki danych.
 
-Wybrane dane pochodzą ze zbioru "Student Performance Dataset" (z platformy Kaggle) i mają charakter przekrojowy, opisując aktywność oraz wyniki w nauce 1000 studentów. Nie wszystkie zmienne są w pełni kompletne – w trzech kolumnach (sleep_hours_per_day, extracurricular_hours_per_week oraz commute_minutes) występują pojedyncze braki danych, które w następnym kroku będziemy usuwać. 
 
-*Imie_Nazwisko* - student_name: imię i nazwisko studenta (character / tekstowa).
+Wybrane dane pochodzą ze zbioru "Football Teams" (z platformy Kaggle) i mają charakter przekrojowy, opisując statystyki meczowe oraz ogólną ocenę gry 98 europejskich drużyn piłkarskich z pięciu czołowych lig.
 
-*Czas_nauki* - study_hours_per_day: średnia dzienna liczba godzin poświęcanych na naukę (numeric / zmiennoprzecinkowa, w godz.).
+Link do zbioru danych:
 
-*Frekwencja* - attendance_percentage: procentowa frekwencja studenta na zajęciach (numeric / zmiennoprzecinkowa, w %).
+https://www.kaggle.com/datasets/varpit94/football-teams-rankings-stats
 
-*Wykonane_zadania* - assignments_completed: liczba zadań domowych i projektów wykonanych przez studenta (integer / całkowita, w szt.).
+**Druzyna** - Team: nazwa klubu piłkarskiego (character / tekstowa).
 
-*Wszystkie_zadania* - total_assignments: całkowita liczba zadań przypisanych studentowi do wykonania (integer / całkowita, w szt.).
+**Liga** - Tournament: nazwa ligi krajowej, w której występuje drużyna (character / tekstowa).
 
-*Poprzednie_wyniki* - previous_score: wynik punktowy uzyskany przez studenta w poprzednim okresie/semestrze (numeric / zmiennoprzecinkowa, w pkt).
+**Bramki** - Goals: łączna liczba bramek zdobytych przez drużynę w sezonie (integer / całkowita, w szt.).
 
-*Ocena_Aktywnosc* - class_participation_score: ocena aktywności i zaangażowania studenta podczas zajęć (integer / całkowita, w pkt).
+**Strzaly_na_mecz** - Shots pg: średnia liczba strzałów oddawanych przez drużynę w jednym meczu (numeric / zmiennoprzecinkowa, w szt.).
 
-*Godziny_Snu* - sleep_hours_per_day: średnia dzienna liczba godzin snu studenta (numeric / zmiennoprzecinkowa, w godz.).
+**Zolte_kartki** - yellow_cards: łączna liczba żółtych kartek otrzymanych przez zawodników drużyny w sezonie (integer / całkowita, w szt.).
 
-*Zajecia_dodatkowe* - extracurricular_hours_per_week: tygodniowa liczba godzin poświęcana na zajęcia pozalekcyjne i dodatkowe (numeric / zmiennoprzecinkowa, w godz.).
+**Czerwone_kartki** - red_cards: łączna liczba czerwonych kartek otrzymanych przez zawodników drużyny w sezonie (integer / całkowita, w szt.).
 
-*Czas_dojazdu* - commute_minutes: średni dzienny czas dojazdu studenta na uczelnię (numeric / zmiennoprzecinkowa, w min).
+**Posiadanie_pilki** - Possession%: średni procentowy czas posiadania piłki przez drużynę w trakcie meczu (numeric / zmiennoprzecinkowa, w %).
 
-*Wynik* - final_score: końcowy wynik punktowy uzyskany przez studenta (numeric / zmiennoprzecinkowa, w pkt).
+**Celne_podania** - Pass%: odsetek celnych podań wykonanych przez drużynę (numeric / zmiennoprzecinkowa, w %).
 
-## 2. Przyotowanie tabeli z danymi.
+**Wygrane_pojedynki_powietrzne** - AerialsWon: średnia liczba wygranych pojedynków główkowych przez drużynę na mecz (numeric / zmiennoprzecinkowa, w szt.).
 
-```{r 1}
-students <- read_csv("student_data.csv")
-View(students)
-data <- students %>%
-  select(-c(student_id, branch, semester, internet_access, study_group, pass_status))
+**Ocena** - Rating: ogólna ocena punktowa jakości gry drużyny (numeric / zmiennoprzecinkowa, w pkt).
+
+
+```{r 1, message=FALSE, warning=FALSE}
+data <- read_csv("Football_teams.csv")
+View(data)
 
 data <- na.omit(data)
 colnames(data) <- c(
-  "Imie_Nazwisko", "Czas_nauki", "Frekwencja", "Wykonane_zadania",
-  "Wszystkie_zadania", "Poprzednie_wyniki", "Ocena_Aktywnosc", "Godziny_Snu", 
-  "Zajecia_dodatkowe", "Czas_dojazdu", "Wynik"
+  "Druzyna",
+  "Liga",
+  "Bramki",
+  "Strzaly_na_mecz",
+  "Zolte_kartki",
+  "Czerwone_kartki",
+  "Posiadanie_pilki",
+  "Celne_podania",
+  "Wygrane_pojedynki_powietrzne",
+  "Ocena"
 )
+
+data
+nrow(data)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+W zbiorze Football teams.csv jest 98 drużyn i 0 braków danych (NA) – po na.omit(data) nadal zostaje 98 obserwacji.
+
+# 2. EDA.
+
+Przed przystąpieniem do redukcji wymiarów wyznaczamy podstawowe statystyki dla analizowanych zmiennych ilościowych, a następnie zbadamy siłę i kierunek zależności liniowych między nimi za pomocą macierzy korelacji Pearsona. Ze względu na różne jednostki pomiarowe (m.in. liczba bramek w sezonie, procent posiadania piłki, średnia liczba strzałów na mecz) konieczna będzie późniejsza standaryzacja danych.
+
+Podstawowe statystyki opisowe zmiennych.
+
+```{r 2}
+summary(data)
+
+describe(data)
+```
+
+Korelacje
+
+```{r 3}
+
+
+data <- as.data.frame(data)
+rownames(data) <- data$Druzyna
+
+data_clean <- data %>%
+  select(-c(Druzyna, Liga))
+
+macierz_korelacji <- cor(data_clean, use = "pairwise.complete.obs")
+
+corrplot(macierz_korelacji, method = "color", type = "upper", 
+         addCoef.col = "black", tl.col = "black", number.cex = 0.7)
+
+```
+
+# 3. PCA.
+
+Standaryzowane korelacje:
+
+```{r 4}
+
+pca <- prcomp(data_clean, scale. = TRUE)
+pca
+
+```
+
+Sprawdzenie czy PCA ma sens:
+
+```{r 5}
+R<- cor(data_clean)
+
+cortest.bartlett(R, n = nrow(data_clean)) 
+```
+
+P-value wychodzi mniejsze niż 5%, więc odrzucamy H0 o tym, że macierz korelacji jest macierzą jednostkową — zmienne są ze sobą istotnie skorelowane.
+
+```{r 6}
+KMO(R)    
+
+```
+
+Wynik ogólny MSA jest większy niż 0.5 (*Overall MSA*= 0.76), więc zmienne mają wystarczająco dużo wspólnej wariancji, aby PCA miało sens.
+
+```{r 7}
+lambda <- pca$sdev^2 
+
+cumsum(lambda) / sum(lambda) * 100 
+screeplot(pca, type = "lines")
+summary(pca) 
+
+
+fviz_eig(pca, addlabels = TRUE) 
+pca$rotation
+
+fviz_contrib(pca, choice = "var", axes = 1)
+fviz_contrib(pca, choice = "var", axes = 1:2) 
+
+cor(data_clean, pca$x[, 1:2]) 
+fviz_pca_var(pca) 
+
+cor(data_clean, pca$x[, 1:4])^2 
+biplot(pca)
+
+```
