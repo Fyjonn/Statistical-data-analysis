@@ -1,6 +1,6 @@
 ---
 title: "Project"
-author: "Wiktoria Kowalska"
+author: "Wiktoria Kowalska, Emilia Lehmann"
 date: "2026-11-22"
 output: html_document
 ---
@@ -9,22 +9,54 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+W projekcie zostały wykorzystane biblioteki:
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r libs, message=FALSE, warning=FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
 ```
 
-## Including Plots
+## 1. Opis Danych
 
-You can also embed plots, for example:
+Wybrane dane pochodzą ze zbioru "Student Performance Dataset" (z platformy Kaggle) i mają charakter przekrojowy, opisując aktywność oraz wyniki w nauce 1000 studentów. Nie wszystkie zmienne są w pełni kompletne – w trzech kolumnach (sleep_hours_per_day, extracurricular_hours_per_week oraz commute_minutes) występują pojedyncze braki danych, które w następnym kroku będziemy usuwać. 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+*Imie_Nazwisko* - student_name: imię i nazwisko studenta (character / tekstowa).
+
+*Czas_nauki* - study_hours_per_day: średnia dzienna liczba godzin poświęcanych na naukę (numeric / zmiennoprzecinkowa, w godz.).
+
+*Frekwencja* - attendance_percentage: procentowa frekwencja studenta na zajęciach (numeric / zmiennoprzecinkowa, w %).
+
+*Wykonane_zadania* - assignments_completed: liczba zadań domowych i projektów wykonanych przez studenta (integer / całkowita, w szt.).
+
+*Wszystkie_zadania* - total_assignments: całkowita liczba zadań przypisanych studentowi do wykonania (integer / całkowita, w szt.).
+
+*Poprzednie_wyniki* - previous_score: wynik punktowy uzyskany przez studenta w poprzednim okresie/semestrze (numeric / zmiennoprzecinkowa, w pkt).
+
+*Ocena_Aktywnosc* - class_participation_score: ocena aktywności i zaangażowania studenta podczas zajęć (integer / całkowita, w pkt).
+
+*Godziny_Snu* - sleep_hours_per_day: średnia dzienna liczba godzin snu studenta (numeric / zmiennoprzecinkowa, w godz.).
+
+*Zajecia_dodatkowe* - extracurricular_hours_per_week: tygodniowa liczba godzin poświęcana na zajęcia pozalekcyjne i dodatkowe (numeric / zmiennoprzecinkowa, w godz.).
+
+*Czas_dojazdu* - commute_minutes: średni dzienny czas dojazdu studenta na uczelnię (numeric / zmiennoprzecinkowa, w min).
+
+*Wynik* - final_score: końcowy wynik punktowy uzyskany przez studenta (numeric / zmiennoprzecinkowa, w pkt).
+
+## 2. Przyotowanie tabeli z danymi.
+
+```{r 1}
+students <- read_csv("PCA i MDS/student_data.csv")
+View(students)
+data <- students %>%
+  select(-c(student_id, branch, semester, internet_access, study_group, pass_status))
+
+data <- na.omit(data)
+colnames(data) <- c(
+  "Imie_Nazwisko", "Czas_nauki", "Frekwencja", "Wykonane_zadania",
+  "Wszystkie_zadania", "Poprzednie_wyniki", "Ocena_Aktywnosc", "Godziny_Snu", 
+  "Zajecia_dodatkowe", "Czas_dojazdu", "Wynik"
+)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
