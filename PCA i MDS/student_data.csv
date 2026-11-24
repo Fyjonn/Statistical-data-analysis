@@ -1,0 +1,1001 @@
+student_id,student_name,branch,semester,study_hours_per_day,attendance_percentage,assignments_completed,total_assignments,previous_score,class_participation_score,sleep_hours_per_day,extracurricular_hours_per_week,commute_minutes,internet_access,study_group,final_score,pass_status
+GEC_DEMO_0001,Aarav Gawas,COMPUTER,5,5.1,81.3,13,14,62.7,8,7.1,2.0,5.0,Good,Yes,72.0,Pass
+GEC_DEMO_0002,Rohan Shetye,E&E,7,2.6,83.9,7,8,98.0,4,7.8,2.7,38.0,Good,Yes,72.6,Pass
+GEC_DEMO_0003,Neha Fernandes,ETC,3,2.8,88.1,6,9,63.5,7,7.8,0.2,28.0,Average,No,65.8,Pass
+GEC_DEMO_0004,Esha Amonkar,IT,1,0.9,64.0,7,9,53.3,7,7.8,2.1,50.0,Average,Yes,55.3,Pass
+GEC_DEMO_0005,Nikhil Amonkar,IT,6,4.6,71.6,7,8,51.1,6,5.4,0.3,71.0,Good,Yes,65.4,Pass
+GEC_DEMO_0006,Kavya Gaonkar,MECHANICAL,6,4.9,89.2,9,14,45.7,5,6.5,1.4,5.0,Average,No,62.2,Pass
+GEC_DEMO_0007,Neha Amonkar,CIVIL,2,2.9,80.5,11,13,78.9,6,7.5,0.7,51.0,Average,Yes,67.5,Pass
+GEC_DEMO_0008,Riya Parab,COMPUTER,5,3.2,90.5,10,13,93.2,8,6.6,3.1,27.0,Good,Yes,75.9,Pass
+GEC_DEMO_0009,Riya Velip,E&E,4,3.5,98.9,9,12,73.1,4,6.0,1.8,22.0,Good,No,71.9,Pass
+GEC_DEMO_0010,Advait Gaonkar,IT,6,5.9,97.5,13,14,66.5,4,6.4,7.4,22.0,Average,Yes,76.5,Pass
+GEC_DEMO_0011,Prajakta Sawant,VLSI,1,5.0,91.9,7,10,56.7,8,6.9,0.6,38.0,Good,Yes,68.3,Pass
+GEC_DEMO_0012,Vedant Hegde,VLSI,2,5.3,83.0,8,13,79.5,10,7.4,8.0,42.0,Average,Yes,78.5,Pass
+GEC_DEMO_0013,Chinmay Khan,E&E,1,3.6,93.8,11,12,54.5,9,6.9,0.8,75.0,Average,Yes,70.9,Pass
+GEC_DEMO_0014,Arya Fernandes,MECHANICAL,8,3.2,76.1,10,15,62.9,4,6.5,0.5,25.0,Good,Yes,57.1,Pass
+GEC_DEMO_0015,Ananya Gawas,ETC,6,5.3,84.0,11,13,66.0,6,7.7,0.7,20.0,Good,Yes,75.7,Pass
+GEC_DEMO_0016,Sahil Gawas,CIVIL,2,1.6,79.5,10,15,83.7,8,6.2,1.4,5.0,Average,Yes,66.8,Pass
+GEC_DEMO_0017,Atharva Prabhu,ETC,1,4.5,77.4,10,10,79.4,5,8.2,4.5,21.0,Good,Yes,76.0,Pass
+GEC_DEMO_0018,Atharva Kamat,IT,7,2.0,74.8,10,12,87.6,5,6.6,0.8,37.0,Limited,Yes,69.1,Pass
+GEC_DEMO_0019,Ishan Gaonkar,IT,4,4.9,86.3,11,12,98.0,4,7.7,1.1,5.0,Good,No,84.4,Pass
+GEC_DEMO_0020,Soham Shirodkar,COMPUTER,1,4.5,66.9,10,14,68.1,7,6.8,1.2,17.0,Average,Yes,66.3,Pass
+GEC_DEMO_0021,Ishan Gaonkar 2,ETC,6,2.6,62.8,10,15,94.6,3,9.2,1.1,32.0,Good,Yes,63.7,Pass
+GEC_DEMO_0022,Kavya Gaonkar 2,ETC,6,4.1,92.0,11,14,89.5,9,8.1,6.9,17.0,Good,Yes,77.2,Pass
+GEC_DEMO_0023,Darsh Patil,E&E,4,2.3,86.1,7,8,73.5,7,8.0,1.5,51.0,Average,Yes,65.4,Pass
+GEC_DEMO_0024,Ananya Velip,COMPUTER,3,2.4,90.3,8,9,88.2,4,6.2,0.3,33.0,Average,Yes,72.6,Pass
+GEC_DEMO_0025,Sakshi Salgaonkar,ETC,2,3.3,80.9,10,10,83.3,5,7.0,3.7,35.0,Average,Yes,74.2,Pass
+GEC_DEMO_0026,Ameya Velip,IT,4,2.8,86.8,11,13,91.3,3,7.0,0.5,25.0,Good,No,71.5,Pass
+GEC_DEMO_0027,Yash Shirodkar,COMPUTER,7,5.1,77.2,9,9,39.3,7,6.2,1.6,21.0,Average,Yes,66.2,Pass
+GEC_DEMO_0028,Sarthak Velip,E&E,8,6.6,76.9,7,11,58.9,10,7.9,2.8,58.0,Good,Yes,73.7,Pass
+GEC_DEMO_0029,Sneha Patil,ETC,2,3.8,71.0,7,9,54.2,8,8.4,0.4,29.0,Good,Yes,61.0,Pass
+GEC_DEMO_0030,Atharva Joshi,IT,4,3.8,99.9,6,8,73.8,3,6.5,1.3,11.0,Good,No,71.5,Pass
+GEC_DEMO_0031,Kiran Borkar,COMPUTER,4,4.8,72.5,12,14,73.4,3,6.5,3.5,31.0,Average,No,70.3,Pass
+GEC_DEMO_0032,Aarav Patil,CIVIL,5,3.4,97.7,8,11,54.7,8,8.0,6.0,41.0,Average,No,67.9,Pass
+GEC_DEMO_0033,Aditi Mayekar,MECHANICAL,4,4.4,70.0,12,13,61.8,9,7.5,8.0,55.0,Good,No,72.7,Pass
+GEC_DEMO_0034,Vedant Gawas,E&E,5,1.3,73.1,7,8,71.9,7,7.4,1.5,56.0,Good,No,63.5,Pass
+GEC_DEMO_0035,Aditi Rodrigues,IT,6,2.9,94.2,9,11,68.1,7,7.2,3.2,50.0,Good,No,71.3,Pass
+GEC_DEMO_0036,Sneha Prabhu,VLSI,1,1.7,87.8,9,11,70.1,8,6.4,3.2,43.0,Good,No,67.7,Pass
+GEC_DEMO_0037,Riya Gawas,E&E,1,1.2,86.1,12,15,65.0,7,6.5,1.8,34.0,Good,No,58.9,Pass
+GEC_DEMO_0038,Dhruv D'Souza,ETC,6,5.1,72.8,8,8,55.2,4,7.5,0.8,23.0,Average,Yes,67.3,Pass
+GEC_DEMO_0039,Kiran Chari,CIVIL,7,3.4,91.6,11,11,77.5,10,7.3,,62.0,Limited,Yes,78.2,Pass
+GEC_DEMO_0040,Ananya Naik,IT,8,5.9,73.5,12,14,53.7,9,6.3,7.0,32.0,Good,Yes,72.7,Pass
+GEC_DEMO_0041,Chinmay Prabhu,MECHANICAL,5,5.8,85.1,7,8,79.7,8,7.9,0.3,48.0,Good,Yes,81.5,Pass
+GEC_DEMO_0042,Sai Borkar,IT,4,3.7,74.9,8,9,72.7,9,6.8,2.6,51.0,Good,No,72.1,Pass
+GEC_DEMO_0043,Samarth Gawas,IT,2,3.2,97.4,10,13,81.4,10,8.1,2.1,14.0,Average,No,77.9,Pass
+GEC_DEMO_0044,Aarav Rane,MECHANICAL,7,2.8,86.0,6,9,80.9,6,7.6,3.1,43.0,Good,No,68.5,Pass
+GEC_DEMO_0045,Kiran Gawas,COMPUTER,1,0.5,95.4,9,12,51.5,4,7.7,2.5,24.0,Average,Yes,58.7,Pass
+GEC_DEMO_0046,Prajakta Shetye,ETC,2,3.1,80.5,13,15,55.0,4,7.4,1.5,13.0,Good,Yes,61.8,Pass
+GEC_DEMO_0047,Gaurav Khan,E&E,4,3.4,75.0,13,15,40.3,10,7.5,1.2,21.0,Good,No,63.0,Pass
+GEC_DEMO_0048,Sneha Joshi,COMPUTER,5,2.9,68.5,11,11,51.8,4,7.1,0.4,38.0,,Yes,59.4,Pass
+GEC_DEMO_0049,Dev Kudalkar,MECHANICAL,5,2.5,84.6,7,11,56.2,8,6.1,3.6,60.0,Average,Yes,61.7,Pass
+GEC_DEMO_0050,Gaurav Gawas,ETC,2,3.7,93.9,9,10,80.1,3,6.7,2.6,41.0,Good,Yes,71.2,Pass
+GEC_DEMO_0051,Kavya Fadte,E&E,2,3.3,87.3,11,11,76.2,10,7.5,0.4,47.0,Average,Yes,76.1,Pass
+GEC_DEMO_0052,Tanvi Shirodkar,IT,2,4.0,75.0,5,8,48.0,4,7.5,4.7,32.0,Average,Yes,60.0,Pass
+GEC_DEMO_0053,Krish Prabhu,ETC,3,2.4,77.6,14,15,78.7,4,8.1,3.3,30.0,Good,Yes,65.6,Pass
+GEC_DEMO_0054,Avani Rane,ETC,6,6.3,77.6,11,12,62.2,10,,0.4,18.0,Good,Yes,75.9,Pass
+GEC_DEMO_0055,Diya Fernandes,ETC,2,4.5,81.7,9,11,72.0,6,7.2,1.1,18.0,Good,Yes,72.5,Pass
+GEC_DEMO_0056,Siddharth Gaonkar,E&E,1,3.6,88.9,9,14,70.2,8,7.4,1.4,28.0,Good,No,68.2,Pass
+GEC_DEMO_0057,Anushka Kudalkar,E&E,6,2.7,83.4,7,9,66.3,4,8.1,8.0,31.0,Good,No,63.6,Pass
+GEC_DEMO_0058,Arjun Fadte,ETC,8,2.5,89.1,7,8,84.3,6,8.5,0.6,5.0,Limited,Yes,74.1,Pass
+GEC_DEMO_0059,Aditi Salgaonkar,COMPUTER,6,4.8,86.4,14,15,51.7,9,5.9,3.3,21.0,Good,No,74.1,Pass
+GEC_DEMO_0060,Prajakta Dessai,MECHANICAL,6,3.2,71.9,12,15,76.7,5,7.4,5.2,16.0,Average,Yes,66.7,Pass
+GEC_DEMO_0061,Sana Sawant,ETC,4,3.8,83.0,9,11,86.4,6,6.8,1.3,,Average,Yes,77.6,Pass
+GEC_DEMO_0062,Arya Chari,IT,3,4.3,72.1,9,9,65.1,3,6.4,0.8,31.0,Average,Yes,65.8,Pass
+GEC_DEMO_0063,Sana Sawant 2,ETC,6,3.0,83.0,13,15,62.2,5,7.3,4.1,53.0,Good,No,65.9,Pass
+GEC_DEMO_0064,Aarav Rane 2,COMPUTER,5,4.1,86.4,11,12,58.0,8,8.3,0.7,38.0,Good,Yes,69.1,Pass
+GEC_DEMO_0065,Shreya Kudalkar,CIVIL,7,1.3,74.3,7,8,72.4,7,6.0,2.0,18.0,Average,Yes,62.3,Pass
+GEC_DEMO_0066,Prajakta Chari,VLSI,1,2.5,68.9,5,8,73.9,6,7.0,2.8,48.0,Limited,Yes,63.7,Pass
+GEC_DEMO_0067,Advait Kamat,COMPUTER,2,1.2,84.1,12,12,73.4,7,7.6,0.5,5.0,Good,Yes,71.6,Pass
+GEC_DEMO_0068,Aarav Sawant,IT,6,3.2,80.9,12,13,42.7,6,6.2,4.3,42.0,Good,Yes,57.9,Pass
+GEC_DEMO_0069,Avani Rane 2,MECHANICAL,8,3.2,93.6,10,10,89.7,10,7.4,1.9,37.0,Average,Yes,85.9,Pass
+GEC_DEMO_0070,Nikhil Naik,IT,7,6.1,75.5,10,14,80.5,5,6.2,2.4,54.0,Good,Yes,73.5,Pass
+GEC_DEMO_0071,Zoya Mayekar,E&E,6,2.7,98.3,9,14,67.6,7,7.1,2.2,57.0,Average,Yes,67.8,Pass
+GEC_DEMO_0072,Aarav Joshi,ETC,7,4.0,88.6,8,9,76.4,8,6.9,2.7,11.0,Average,Yes,77.7,Pass
+GEC_DEMO_0073,Zoya Gawas,MECHANICAL,8,4.3,67.1,5,8,53.3,4,8.1,0.9,14.0,Good,No,58.4,Pass
+GEC_DEMO_0074,Ishan D'Souza,VLSI,2,5.6,75.4,10,13,74.7,5,7.6,0.9,10.0,Good,No,71.7,Pass
+GEC_DEMO_0075,Parth Rane,CIVIL,7,4.4,82.3,9,11,60.8,7,6.6,2.8,27.0,Average,No,64.1,Pass
+GEC_DEMO_0076,Sahil Prabhu,E&E,2,4.8,80.9,9,13,74.3,5,6.8,4.6,26.0,Good,No,70.2,Pass
+GEC_DEMO_0077,Darsh Shetye,COMPUTER,4,6.2,73.2,8,10,56.8,10,6.1,3.4,36.0,Good,No,71.9,Pass
+GEC_DEMO_0078,Avani Naik,VLSI,6,1.5,64.0,12,15,64.1,5,7.5,2.9,51.0,Good,Yes,55.0,Pass
+GEC_DEMO_0079,Ishan Shirodkar,COMPUTER,3,3.0,79.0,10,13,75.9,9,5.1,3.8,29.0,Good,Yes,71.0,Pass
+GEC_DEMO_0080,Sakshi Prabhu,IT,3,3.2,79.8,9,12,62.9,3,7.8,1.4,34.0,Good,No,63.9,Pass
+GEC_DEMO_0081,Zoya Velip,IT,2,3.7,87.8,8,8,71.7,7,6.1,1.1,9.0,Limited,No,77.2,Pass
+GEC_DEMO_0082,Sakshi Chari,E&E,8,2.9,83.9,9,11,68.5,10,6.3,2.0,51.0,Good,Yes,70.0,Pass
+GEC_DEMO_0083,Tanvi Velip,ETC,1,5.2,71.4,12,14,85.5,6,7.2,2.2,36.0,Good,No,75.5,Pass
+GEC_DEMO_0084,Tanvi Patil,COMPUTER,5,2.9,89.8,8,9,79.6,8,6.7,0.5,35.0,Good,No,73.4,Pass
+GEC_DEMO_0085,Sai Hegde,COMPUTER,1,2.9,76.1,10,14,72.1,9,6.2,4.2,50.0,Good,Yes,67.6,Pass
+GEC_DEMO_0086,Aditi Dessai,E&E,5,4.4,91.5,7,9,97.4,9,6.8,0.9,34.0,Good,Yes,83.6,Pass
+GEC_DEMO_0087,Sahil Chari,ETC,6,2.7,77.4,12,12,74.1,4,8.2,1.2,50.0,Good,No,69.8,Pass
+GEC_DEMO_0088,Ameya Shirodkar,E&E,7,2.3,76.6,7,9,62.6,3,6.6,1.5,36.0,Good,No,60.0,Pass
+GEC_DEMO_0089,Parth Shirodkar,E&E,2,2.0,82.0,8,8,91.1,6,5.6,5.9,58.0,Good,Yes,73.7,Pass
+GEC_DEMO_0090,Soham Amonkar,CIVIL,8,3.6,89.7,5,8,65.2,7,8.1,4.7,20.0,Average,No,66.4,Pass
+GEC_DEMO_0091,Avani Pereira,VLSI,3,5.1,84.6,8,9,65.4,5,6.1,0.8,46.0,Average,No,70.0,Pass
+GEC_DEMO_0092,Kavya Desai,COMPUTER,4,4.8,69.1,9,12,57.7,3,6.5,3.2,19.0,Good,No,57.1,Pass
+GEC_DEMO_0093,Prajakta Kudalkar,VLSI,8,4.3,91.7,8,9,68.1,5,7.7,1.3,37.0,Average,Yes,71.7,Pass
+GEC_DEMO_0094,Gaurav Mayekar,MECHANICAL,5,3.9,75.4,13,14,78.8,3,7.1,0.8,26.0,Good,Yes,70.2,Pass
+GEC_DEMO_0095,Bhargavi Patil,E&E,7,3.0,67.7,13,14,48.1,10,7.3,1.9,34.0,Good,Yes,60.8,Pass
+GEC_DEMO_0096,Advait Velip,E&E,1,3.6,65.1,10,14,68.3,3,7.1,3.2,28.0,Average,No,58.8,Pass
+GEC_DEMO_0097,Riya Rane,ETC,7,2.1,95.0,5,8,50.5,7,6.5,1.9,46.0,Good,Yes,63.0,Pass
+GEC_DEMO_0098,Parth Dessai,VLSI,8,3.9,97.2,9,10,86.1,6,7.5,1.0,55.0,Average,Yes,78.6,Pass
+GEC_DEMO_0099,Dev Shirodkar,COMPUTER,2,5.1,76.6,8,8,70.1,6,7.0,3.9,55.0,Good,Yes,73.9,Pass
+GEC_DEMO_0100,Bhargavi Fernandes,E&E,8,1.5,79.1,10,11,86.5,9,5.7,0.9,56.0,Good,Yes,71.7,Pass
+GEC_DEMO_0101,Esha Salgaonkar,CIVIL,5,5.5,81.5,12,12,68.4,10,7.3,1.7,25.0,Average,Yes,80.0,Pass
+GEC_DEMO_0102,Arjun Sawant,COMPUTER,1,0.8,69.5,10,14,49.1,8,6.7,4.0,35.0,Good,Yes,56.1,Pass
+GEC_DEMO_0103,Gaurav Gawas 2,E&E,6,2.7,83.3,11,15,64.1,3,7.5,5.1,9.0,Average,Yes,59.8,Pass
+GEC_DEMO_0104,Zoya Hegde,IT,3,2.3,87.5,7,9,98.0,5,7.1,0.9,29.0,Limited,No,75.5,Pass
+GEC_DEMO_0105,Neha Parab,MECHANICAL,2,2.8,77.8,14,15,70.1,6,6.1,0.2,11.0,Good,Yes,63.4,Pass
+GEC_DEMO_0106,Sarthak Mayekar,COMPUTER,8,3.2,84.4,9,11,82.9,7,5.9,0.2,36.0,Good,No,72.9,Pass
+GEC_DEMO_0107,Omkar Borkar,E&E,3,5.4,77.9,7,10,59.2,10,,4.0,38.0,Good,No,70.8,Pass
+GEC_DEMO_0108,Rohan Patil,CIVIL,5,2.4,92.2,10,11,64.7,10,6.4,0.1,29.0,Good,Yes,72.6,Pass
+GEC_DEMO_0109,Arya Gaonkar,E&E,3,2.5,72.9,11,15,80.3,9,6.2,3.0,43.0,Average,No,68.7,Pass
+GEC_DEMO_0110,Esha Mayekar,IT,3,2.7,77.3,11,15,85.8,4,6.9,3.0,37.0,Good,No,68.7,Pass
+GEC_DEMO_0111,Kavya Hegde,E&E,5,3.0,96.3,8,12,83.3,7,7.4,0.4,28.0,Good,No,74.7,Pass
+GEC_DEMO_0112,Gaurav Rane,IT,3,2.9,83.8,12,13,57.0,5,7.5,1.0,5.0,Good,Yes,64.7,Pass
+GEC_DEMO_0113,Riya Kamat,E&E,5,1.9,100.0,10,12,49.3,8,6.6,2.2,35.0,Good,Yes,64.5,Pass
+GEC_DEMO_0114,Sahil Tari,COMPUTER,6,4.1,89.4,13,14,51.6,10,6.9,1.2,42.0,Good,Yes,72.8,Pass
+GEC_DEMO_0115,Sarthak Amonkar,IT,5,3.5,93.6,9,12,60.2,10,8.6,1.1,24.0,Good,No,73.0,Pass
+GEC_DEMO_0116,Nikhil Velip,COMPUTER,6,5.1,88.5,13,15,64.7,5,5.9,1.9,52.0,,Yes,72.9,Pass
+GEC_DEMO_0117,Rohan Fadte,COMPUTER,7,5.4,74.5,9,9,75.4,10,6.2,1.3,12.0,Good,Yes,80.2,Pass
+GEC_DEMO_0118,Sneha Mayekar,ETC,2,1.6,91.4,7,10,46.9,5,7.0,0.7,44.0,Average,No,57.4,Pass
+GEC_DEMO_0119,Kavya Joshi,COMPUTER,1,5.8,72.1,15,15,51.7,9,7.6,0.3,40.0,Good,Yes,72.2,Pass
+GEC_DEMO_0120,Neha Chari,ETC,4,4.4,65.6,7,8,72.4,4,6.6,0.8,16.0,Average,Yes,66.0,Pass
+GEC_DEMO_0121,Darsh Borkar,E&E,6,5.4,85.9,11,14,69.5,5,6.9,,48.0,Good,Yes,71.0,Pass
+GEC_DEMO_0122,Soham Tari,CIVIL,7,3.6,92.0,13,14,64.7,7,8.1,0.7,54.0,Good,No,69.9,Pass
+GEC_DEMO_0123,Gaurav Gaonkar,IT,4,4.6,94.4,13,15,91.0,7,7.3,1.9,71.0,Average,Yes,80.6,Pass
+GEC_DEMO_0124,Avani Shirodkar,IT,7,4.5,86.1,9,12,56.6,8,7.8,0.4,33.0,Good,Yes,71.6,Pass
+GEC_DEMO_0125,Prajakta Hegde,IT,2,5.5,81.3,12,14,80.0,10,5.6,4.0,37.0,Good,Yes,80.3,Pass
+GEC_DEMO_0126,Aniket Shetye,COMPUTER,6,2.9,80.6,12,13,70.8,3,6.2,1.8,12.0,Good,No,64.0,Pass
+GEC_DEMO_0127,Madhav Sawant,E&E,6,2.9,87.3,14,14,65.2,3,7.6,2.3,29.0,Good,Yes,67.2,Pass
+GEC_DEMO_0128,Siddharth Rodrigues,CIVIL,7,3.4,92.0,10,10,59.2,3,8.7,3.2,42.0,Good,Yes,69.6,Pass
+GEC_DEMO_0129,Avani Tari,ETC,1,5.5,82.3,9,9,48.3,10,7.9,5.2,41.0,Good,Yes,73.6,Pass
+GEC_DEMO_0130,Aarav Joshi 2,ETC,6,5.8,88.4,13,14,53.4,9,8.6,1.7,5.0,Limited,Yes,75.8,Pass
+GEC_DEMO_0131,Anushka Prabhu,VLSI,5,2.2,93.6,8,10,64.8,6,6.9,0.6,5.0,Good,Yes,65.6,Pass
+GEC_DEMO_0132,Janhavi Fadte,MECHANICAL,7,4.5,94.0,10,14,58.7,9,7.9,2.5,75.0,Good,No,70.5,Pass
+GEC_DEMO_0133,Darsh Fadte,MECHANICAL,7,3.7,93.7,10,13,59.6,10,6.4,0.4,51.0,Good,Yes,73.9,Pass
+GEC_DEMO_0134,Anushka Gawas,CIVIL,3,3.4,90.4,10,13,67.4,4,6.5,0.7,38.0,Good,No,67.0,Pass
+GEC_DEMO_0135,Ananya Kudalkar,COMPUTER,5,4.5,99.3,13,14,84.4,5,7.2,1.2,41.0,Good,No,79.7,Pass
+GEC_DEMO_0136,Darsh Prabhu,E&E,1,6.3,73.2,6,11,75.1,10,8.1,0.6,21.0,Good,Yes,76.2,Pass
+GEC_DEMO_0137,Yash Salgaonkar,MECHANICAL,1,4.5,98.8,9,12,69.5,9,6.7,2.1,43.0,Limited,Yes,78.3,Pass
+GEC_DEMO_0138,Riya Pereira,CIVIL,1,3.1,82.8,8,9,56.9,5,7.1,2.5,11.0,Good,Yes,67.9,Pass
+GEC_DEMO_0139,Omkar Gawas,IT,6,2.9,66.6,10,11,66.1,9,8.0,2.1,18.0,Limited,Yes,65.2,Pass
+GEC_DEMO_0140,Sahil Khan,MECHANICAL,5,4.4,83.3,12,14,72.6,5,6.0,2.3,47.0,Good,Yes,69.4,Pass
+GEC_DEMO_0141,Neha Desai,E&E,8,4.1,85.2,8,9,60.0,5,8.1,1.4,27.0,Good,No,68.3,Pass
+GEC_DEMO_0142,Tanvi Parab,IT,1,5.3,68.8,5,8,74.6,8,7.9,1.2,61.0,Good,Yes,68.4,Pass
+GEC_DEMO_0143,Parth Chari,COMPUTER,7,5.7,82.3,10,10,68.9,3,7.2,3.1,13.0,Average,No,76.9,Pass
+GEC_DEMO_0144,Kavya Gaonkar 3,IT,7,4.1,60.1,11,12,76.0,10,8.7,1.3,27.0,Good,Yes,72.9,Pass
+GEC_DEMO_0145,Ananya Naik 2,VLSI,2,4.6,99.0,13,13,98.0,7,6.3,1.6,15.0,Good,Yes,89.0,Pass
+GEC_DEMO_0146,Kiran Salgaonkar,COMPUTER,2,6.0,79.4,9,11,72.2,7,7.2,1.2,55.0,Limited,No,76.8,Pass
+GEC_DEMO_0147,Nikhil Prabhu,COMPUTER,7,5.5,82.0,7,9,74.2,4,7.9,0.4,43.0,Average,Yes,71.8,Pass
+GEC_DEMO_0148,Prajakta Shetye 2,IT,7,2.6,91.6,8,8,65.0,8,7.4,0.6,58.0,Good,Yes,72.0,Pass
+GEC_DEMO_0149,Krish Desai,COMPUTER,7,1.9,82.1,11,15,79.1,6,6.2,0.7,8.0,Good,No,64.9,Pass
+GEC_DEMO_0150,Riya Tari,IT,3,1.9,69.4,6,9,60.5,7,6.6,1.6,,Average,No,59.2,Pass
+GEC_DEMO_0151,Dev Sawant,VLSI,7,1.4,62.7,6,11,70.9,4,6.0,5.5,29.0,Good,Yes,51.3,Pass
+GEC_DEMO_0152,Soham Tari 2,IT,1,4.3,88.6,9,13,46.7,6,7.9,1.5,27.0,Limited,No,59.5,Pass
+GEC_DEMO_0153,Soham Rane,E&E,8,2.1,90.0,11,14,90.6,9,8.0,3.6,51.0,Good,No,76.5,Pass
+GEC_DEMO_0154,Madhav Tari,COMPUTER,3,4.7,77.7,9,14,82.3,10,6.3,2.7,25.0,Good,No,76.6,Pass
+GEC_DEMO_0155,Krish Kudalkar,E&E,2,2.7,62.0,7,12,57.0,8,7.6,4.0,41.0,Limited,No,51.4,Pass
+GEC_DEMO_0156,Kavya Prabhu,COMPUTER,1,5.1,85.3,9,12,88.7,4,5.5,1.6,47.0,Average,No,75.5,Pass
+GEC_DEMO_0157,Ameya Dessai,MECHANICAL,6,4.6,81.8,11,12,72.9,9,6.0,1.9,56.0,Limited,Yes,73.3,Pass
+GEC_DEMO_0158,Ananya Tari,ETC,2,4.0,88.2,11,14,77.5,10,7.0,0.8,5.0,Good,Yes,77.0,Pass
+GEC_DEMO_0159,Siddharth Prabhu,COMPUTER,1,4.4,74.1,9,10,71.8,3,6.7,2.6,26.0,Good,No,66.2,Pass
+GEC_DEMO_0160,Bhargavi Fadte,MECHANICAL,2,2.0,61.1,6,9,66.8,6,6.6,2.4,26.0,Good,Yes,57.3,Pass
+GEC_DEMO_0161,Bhargavi Pereira,ETC,4,0.5,76.5,10,12,79.8,4,7.1,1.5,32.0,Average,No,61.6,Pass
+GEC_DEMO_0162,Nikhil Patil,ETC,8,3.0,89.7,7,8,65.0,9,6.0,3.7,,Average,Yes,73.5,Pass
+GEC_DEMO_0163,Siddharth Pereira,COMPUTER,5,4.4,92.4,8,12,56.3,9,6.2,4.0,31.0,Good,Yes,69.4,Pass
+GEC_DEMO_0164,Avani Naik 2,MECHANICAL,4,2.0,78.5,7,9,85.4,9,7.7,1.3,52.0,Limited,No,71.1,Pass
+GEC_DEMO_0165,Avani Shirodkar 2,IT,5,4.6,76.4,12,15,68.6,7,5.9,2.3,55.0,Good,No,68.8,Pass
+GEC_DEMO_0166,Avani Chari,COMPUTER,5,4.6,63.9,7,8,80.3,7,9.0,2.1,18.0,Good,Yes,71.9,Pass
+GEC_DEMO_0167,Omkar Fernandes,VLSI,2,3.9,93.9,10,14,68.9,4,6.4,1.2,37.0,Good,Yes,68.1,Pass
+GEC_DEMO_0168,Nikhil Gawas,COMPUTER,1,4.1,77.5,7,11,80.2,3,6.7,0.5,57.0,Average,Yes,67.1,Pass
+GEC_DEMO_0169,Chinmay Kamat,COMPUTER,2,3.6,74.8,7,9,48.8,4,7.0,1.8,6.0,Good,Yes,58.8,Pass
+GEC_DEMO_0170,Gaurav Desai,ETC,1,3.9,73.1,10,10,78.9,10,7.6,0.9,8.0,Good,Yes,76.1,Pass
+GEC_DEMO_0171,Yash Naik,COMPUTER,6,2.0,78.0,13,13,75.0,7,6.4,2.6,16.0,Good,Yes,67.8,Pass
+GEC_DEMO_0172,Janhavi Chari,IT,5,5.2,86.1,11,15,59.4,7,5.7,5.0,36.0,Good,No,72.0,Pass
+GEC_DEMO_0173,Aarav Khan,E&E,6,4.2,78.2,9,12,78.0,3,6.6,2.0,9.0,Good,Yes,66.9,Pass
+GEC_DEMO_0174,Ishan Parab,VLSI,3,4.5,95.5,6,8,78.0,3,7.8,1.1,21.0,Good,Yes,71.9,Pass
+GEC_DEMO_0175,Soham Amonkar 2,VLSI,5,2.7,88.5,11,14,70.8,5,6.8,1.2,45.0,Good,Yes,65.0,Pass
+GEC_DEMO_0176,Dhruv Borkar,COMPUTER,3,1.7,85.7,7,8,79.8,3,7.1,3.3,29.0,Average,Yes,63.9,Pass
+GEC_DEMO_0177,Advait Fadte,CIVIL,5,5.4,94.9,14,15,60.8,5,7.3,0.6,25.0,Limited,Yes,75.1,Pass
+GEC_DEMO_0178,Aditi Rodrigues 2,COMPUTER,2,1.7,69.9,14,14,58.4,10,7.2,1.1,52.0,Good,Yes,64.4,Pass
+GEC_DEMO_0179,Bhargavi Kudalkar,CIVIL,1,3.3,83.4,7,9,52.0,4,6.8,2.5,10.0,Average,No,59.3,Pass
+GEC_DEMO_0180,Dhruv Prabhu,IT,7,3.6,89.9,9,9,76.2,10,8.1,2.3,30.0,Good,Yes,79.3,Pass
+GEC_DEMO_0181,Siddharth Amonkar,MECHANICAL,2,4.1,90.2,13,14,72.5,7,6.4,1.5,50.0,Good,Yes,76.9,Pass
+GEC_DEMO_0182,Samarth Desai,MECHANICAL,8,4.2,77.7,6,8,49.7,4,7.4,3.3,22.0,Good,Yes,60.4,Pass
+GEC_DEMO_0183,Riya Hegde,CIVIL,3,3.7,70.0,8,13,77.9,8,6.5,2.3,55.0,Good,Yes,69.1,Pass
+GEC_DEMO_0184,Diya Fadte,VLSI,3,1.8,63.4,6,8,80.8,9,7.0,4.0,5.0,Good,No,66.9,Pass
+GEC_DEMO_0185,Arya Gawas,IT,7,3.4,86.9,13,13,93.8,8,8.5,4.4,49.0,Good,No,79.4,Pass
+GEC_DEMO_0186,Ananya Pereira,E&E,4,3.6,81.1,11,14,69.7,4,7.8,3.9,23.0,Good,No,65.4,Pass
+GEC_DEMO_0187,Bhargavi Amonkar,MECHANICAL,2,4.5,80.3,15,15,89.0,5,7.4,3.9,39.0,Good,No,78.1,Pass
+GEC_DEMO_0188,Rohan Amonkar,COMPUTER,3,4.0,83.8,7,10,51.2,10,6.9,1.2,55.0,Good,No,70.3,Pass
+GEC_DEMO_0189,Dev Gawas,E&E,7,5.3,81.5,12,12,84.8,8,8.4,2.9,51.0,Average,No,82.7,Pass
+GEC_DEMO_0190,Omkar Kudalkar,IT,2,4.9,76.9,6,8,82.0,5,7.7,1.4,29.0,Good,Yes,73.1,Pass
+GEC_DEMO_0191,Ananya Shirodkar,COMPUTER,4,2.0,89.5,6,8,67.3,7,7.2,2.2,38.0,Good,No,63.2,Pass
+GEC_DEMO_0192,Gaurav Borkar,ETC,3,3.8,68.6,10,13,79.8,9,6.4,4.1,35.0,Average,No,69.3,Pass
+GEC_DEMO_0193,Zoya Kudalkar,ETC,4,4.3,70.8,11,15,44.5,6,6.3,0.8,15.0,Limited,No,58.5,Pass
+GEC_DEMO_0194,Zoya Kudalkar 2,E&E,7,3.0,69.0,8,13,71.3,4,7.4,1.3,60.0,Limited,Yes,56.2,Pass
+GEC_DEMO_0195,Siddharth Mayekar,E&E,6,5.8,78.6,6,9,75.1,4,6.9,1.8,5.0,Good,Yes,72.8,Pass
+GEC_DEMO_0196,Sneha Prabhu 2,ETC,1,3.0,88.2,6,11,71.2,10,7.4,1.1,33.0,Good,Yes,71.1,Pass
+GEC_DEMO_0197,Omkar Joshi,CIVIL,6,2.0,74.4,8,8,80.0,8,6.6,1.5,48.0,Average,Yes,68.9,Pass
+GEC_DEMO_0198,Esha Pereira,COMPUTER,7,1.3,83.5,7,8,79.6,7,6.7,1.3,23.0,Average,Yes,67.5,Pass
+GEC_DEMO_0199,Siddharth Naik,IT,6,3.1,91.4,10,14,52.8,3,7.3,2.5,38.0,Good,No,60.6,Pass
+GEC_DEMO_0200,Omkar Rane,IT,1,3.1,99.7,7,10,75.6,5,7.7,6.7,28.0,Good,Yes,70.5,Pass
+GEC_DEMO_0201,Aditi Kudalkar,MECHANICAL,5,3.2,90.5,15,15,61.7,7,6.6,0.3,33.0,Good,No,69.8,Pass
+GEC_DEMO_0202,Soham Desai,E&E,5,0.8,77.0,9,13,84.3,7,7.1,1.1,36.0,Good,No,63.1,Pass
+GEC_DEMO_0203,Kiran Desai,COMPUTER,1,3.8,67.2,13,14,73.7,3,7.2,1.4,50.0,Average,No,65.9,Pass
+GEC_DEMO_0204,Bhargavi Gaonkar,MECHANICAL,7,5.3,57.1,13,13,82.3,10,6.7,1.7,65.0,Good,Yes,78.1,Pass
+GEC_DEMO_0205,Dhruv Joshi,MECHANICAL,2,2.9,76.2,8,9,98.0,3,7.2,0.6,14.0,Average,Yes,71.2,Pass
+GEC_DEMO_0206,Sakshi Prabhu 2,MECHANICAL,3,4.6,83.2,11,13,85.5,5,8.7,0.2,40.0,Good,No,72.6,Pass
+GEC_DEMO_0207,Ameya Shetye,COMPUTER,3,2.9,77.8,8,9,44.0,10,9.0,2.3,52.0,Average,Yes,63.3,Pass
+GEC_DEMO_0208,Riya Fadte,COMPUTER,8,2.6,100.0,7,9,56.2,9,5.5,1.5,26.0,Good,No,70.4,Pass
+GEC_DEMO_0209,Mihir Shetye,CIVIL,8,5.6,69.3,14,14,70.7,3,7.2,0.7,55.0,Good,Yes,74.8,Pass
+GEC_DEMO_0210,Dhruv Khan,CIVIL,7,4.7,76.0,7,10,74.5,7,7.0,0.6,5.0,Good,Yes,72.0,Pass
+GEC_DEMO_0211,Sarthak Kudalkar,COMPUTER,3,5.0,59.3,9,9,72.2,7,8.1,1.4,54.0,Average,Yes,71.6,Pass
+GEC_DEMO_0212,Ananya Desai,ETC,6,6.9,93.6,12,13,69.9,3,7.2,0.7,33.0,Good,Yes,78.1,Pass
+GEC_DEMO_0213,Madhav Pereira,IT,6,3.8,76.0,6,8,81.1,6,6.6,1.8,29.0,Good,No,68.8,Pass
+GEC_DEMO_0214,Ishan Dessai,ETC,3,3.8,64.0,14,14,60.9,7,8.1,1.8,33.0,Good,No,63.9,Pass
+GEC_DEMO_0215,Janhavi Shetye,COMPUTER,3,4.0,80.4,12,12,75.7,5,7.7,1.2,54.0,Good,Yes,70.4,Pass
+GEC_DEMO_0216,Siddharth Tari,IT,2,5.7,96.5,11,14,65.5,8,5.9,2.1,28.0,Good,Yes,78.8,Pass
+GEC_DEMO_0217,Dev Amonkar,IT,4,5.1,100.0,6,9,83.6,4,6.2,2.8,13.0,Good,Yes,78.1,Pass
+GEC_DEMO_0218,Advait Pereira,VLSI,5,2.6,79.5,7,11,73.1,7,7.8,0.6,8.0,Good,Yes,64.4,Pass
+GEC_DEMO_0219,Esha Kudalkar,E&E,6,2.7,88.2,6,8,57.7,5,7.1,1.2,23.0,Average,No,61.9,Pass
+GEC_DEMO_0220,Dhruv Dessai,COMPUTER,2,4.3,77.7,12,15,57.7,9,6.2,3.6,28.0,Good,Yes,69.1,Pass
+GEC_DEMO_0221,Ishan Patil,ETC,6,4.5,79.8,11,14,94.8,5,7.3,3.0,18.0,Good,Yes,75.1,Pass
+GEC_DEMO_0222,Aarav Mayekar,ETC,8,4.4,76.8,14,14,78.4,5,8.5,0.7,42.0,Average,No,72.5,Pass
+GEC_DEMO_0223,Kiran Salgaonkar 2,E&E,7,4.5,97.6,12,14,79.9,9,7.2,4.7,23.0,Average,Yes,82.3,Pass
+GEC_DEMO_0224,Krish Fernandes,ETC,8,3.5,75.0,13,15,64.5,8,7.1,5.2,36.0,Average,Yes,69.8,Pass
+GEC_DEMO_0225,Chinmay Gaonkar,ETC,7,4.6,61.8,7,9,65.8,3,8.5,6.0,22.0,Average,Yes,59.6,Pass
+GEC_DEMO_0226,Nikhil Rodrigues,IT,4,4.7,70.7,8,8,44.7,10,7.1,2.5,32.0,Good,Yes,69.0,Pass
+GEC_DEMO_0227,Kiran D'Souza,E&E,8,2.6,75.8,8,13,79.8,3,8.3,0.3,29.0,Good,Yes,62.5,Pass
+GEC_DEMO_0228,Akash Gaonkar,VLSI,6,2.1,83.7,9,10,70.3,4,,7.1,36.0,Average,Yes,63.3,Pass
+GEC_DEMO_0229,Shreya Borkar,ETC,4,4.1,76.3,7,9,84.6,6,7.0,1.0,35.0,Good,Yes,69.4,Pass
+GEC_DEMO_0230,Gaurav Chari,CIVIL,6,3.2,83.8,11,13,86.8,4,6.5,1.9,49.0,Good,Yes,75.0,Pass
+GEC_DEMO_0231,Parth Dessai 2,COMPUTER,8,1.9,84.0,8,10,71.8,3,5.9,2.9,30.0,Good,Yes,61.3,Pass
+GEC_DEMO_0232,Krish Fadte,COMPUTER,3,4.8,78.2,10,13,75.5,7,7.1,4.4,42.0,Limited,No,71.8,Pass
+GEC_DEMO_0233,Kiran Gawas 2,CIVIL,1,4.4,88.6,10,14,83.8,3,7.4,3.5,34.0,Average,Yes,73.1,Pass
+GEC_DEMO_0234,Riya Mayekar,E&E,2,5.7,72.7,11,11,65.7,9,6.3,2.0,45.0,Good,No,80.2,Pass
+GEC_DEMO_0235,Diya Borkar,ETC,6,3.7,71.8,14,14,81.1,8,6.7,1.7,48.0,Good,No,75.1,Pass
+GEC_DEMO_0236,Gaurav Chari 2,IT,4,3.9,91.3,7,8,47.5,4,6.9,4.2,62.0,Good,Yes,66.4,Pass
+GEC_DEMO_0237,Avani Borkar,IT,1,1.9,82.6,8,8,77.2,8,5.8,4.3,34.0,Good,Yes,69.9,Pass
+GEC_DEMO_0238,Riya Desai,E&E,5,5.7,53.1,12,14,66.9,10,6.7,2.1,45.0,Good,No,74.0,Pass
+GEC_DEMO_0239,Mihir Dessai,IT,8,4.6,77.5,8,14,72.0,7,5.6,1.7,28.0,Good,Yes,64.7,Pass
+GEC_DEMO_0240,Samarth Desai 2,ETC,6,5.0,87.5,8,11,57.6,8,6.7,0.6,13.0,Average,Yes,70.5,Pass
+GEC_DEMO_0241,Ameya Tari,MECHANICAL,8,3.5,96.6,12,13,60.0,4,7.1,1.0,34.0,,Yes,68.2,Pass
+GEC_DEMO_0242,Diya Mayekar,VLSI,6,3.7,88.7,5,9,62.5,8,8.0,2.1,43.0,Good,Yes,65.7,Pass
+GEC_DEMO_0243,Nikhil Rane,VLSI,1,4.2,85.2,10,12,69.7,8,5.6,1.2,56.0,Average,No,73.7,Pass
+GEC_DEMO_0244,Esha Amonkar 2,ETC,1,2.8,92.2,7,8,59.9,10,6.3,6.7,37.0,Limited,Yes,75.2,Pass
+GEC_DEMO_0245,Vedant Gaonkar,COMPUTER,7,2.7,92.0,10,12,51.7,9,7.7,1.9,38.0,Average,Yes,66.8,Pass
+GEC_DEMO_0246,Vedant Amonkar,COMPUTER,8,6.5,93.4,8,12,94.3,10,7.5,3.8,21.0,Good,No,88.2,Pass
+GEC_DEMO_0247,Ananya Amonkar,ETC,5,4.3,70.6,10,13,77.4,9,6.8,1.4,64.0,Good,Yes,70.4,Pass
+GEC_DEMO_0248,Ananya Velip 2,COMPUTER,2,2.9,81.1,8,10,58.6,4,8.6,2.2,20.0,Good,Yes,62.0,Pass
+GEC_DEMO_0249,Arya Joshi,COMPUTER,7,1.9,66.9,9,10,65.4,7,6.7,0.1,35.0,Good,No,61.7,Pass
+GEC_DEMO_0250,Esha Gaonkar,COMPUTER,2,2.2,92.5,10,13,68.7,10,7.8,2.1,47.0,Good,Yes,70.1,Pass
+GEC_DEMO_0251,Tanvi Sawant,VLSI,7,4.2,75.2,5,9,75.2,6,7.8,1.0,28.0,Limited,No,62.8,Pass
+GEC_DEMO_0252,Tanvi Joshi,COMPUTER,1,2.5,71.8,9,9,58.2,7,5.7,0.8,45.0,Average,No,64.5,Pass
+GEC_DEMO_0253,Ananya Borkar,COMPUTER,4,2.3,99.9,10,12,61.0,5,7.5,,5.0,Good,No,67.6,Pass
+GEC_DEMO_0254,Anushka Hegde,VLSI,4,3.5,71.1,8,10,78.9,10,7.4,4.0,31.0,Limited,Yes,69.4,Pass
+GEC_DEMO_0255,Arya Fernandes 2,E&E,5,4.3,77.9,10,13,98.0,7,6.1,6.5,46.0,Average,No,77.6,Pass
+GEC_DEMO_0256,Sneha Desai,MECHANICAL,8,5.5,81.8,10,11,78.8,3,8.4,0.6,5.0,Good,No,70.7,Pass
+GEC_DEMO_0257,Shreya Amonkar,IT,6,2.7,80.0,7,8,70.4,9,6.9,3.6,5.0,Limited,Yes,72.3,Pass
+GEC_DEMO_0258,Ishan Fernandes,VLSI,6,2.8,93.1,10,11,54.0,9,8.5,0.7,40.0,Good,Yes,70.5,Pass
+GEC_DEMO_0259,Esha Kudalkar 2,VLSI,7,4.3,87.8,8,13,77.4,6,6.0,1.6,5.0,Good,Yes,69.9,Pass
+GEC_DEMO_0260,Parth Desai,ETC,4,3.1,71.9,6,11,57.0,4,,,23.0,Average,Yes,52.2,Pass
+GEC_DEMO_0261,Sai Gawas,VLSI,6,4.9,89.7,11,11,81.9,3,7.6,4.1,52.0,Good,No,78.8,Pass
+GEC_DEMO_0262,Gaurav Joshi,ETC,7,3.1,79.0,10,12,67.9,4,6.8,3.8,5.0,Average,No,64.7,Pass
+GEC_DEMO_0263,Yash Khan,ETC,1,2.0,76.1,8,9,61.2,6,8.1,1.1,51.0,Average,No,63.7,Pass
+GEC_DEMO_0264,Parth Dessai 3,MECHANICAL,8,2.8,87.6,13,13,85.0,10,6.7,2.5,36.0,Limited,No,79.5,Pass
+GEC_DEMO_0265,Krish Kamat,E&E,7,1.7,86.0,9,11,67.8,8,5.4,4.5,34.0,Average,No,65.9,Pass
+GEC_DEMO_0266,Arya Amonkar,COMPUTER,5,3.1,83.1,8,9,62.2,3,8.0,0.4,5.0,Good,Yes,63.4,Pass
+GEC_DEMO_0267,Madhav Naik,ETC,6,4.4,73.3,9,15,70.3,4,6.9,2.9,44.0,Good,Yes,63.3,Pass
+GEC_DEMO_0268,Advait Naik,COMPUTER,7,3.8,82.5,8,10,97.4,7,7.1,0.9,10.0,Good,No,77.0,Pass
+GEC_DEMO_0269,Nikhil Kudalkar,CIVIL,5,3.6,69.7,9,11,75.5,5,6.9,3.0,27.0,Good,No,65.1,Pass
+GEC_DEMO_0270,Dev Joshi,ETC,8,2.0,89.2,14,15,72.5,9,7.7,4.2,58.0,Average,Yes,72.3,Pass
+GEC_DEMO_0271,Atharva Fernandes,COMPUTER,6,2.7,78.8,10,13,48.6,8,7.7,1.4,14.0,Good,Yes,61.7,Pass
+GEC_DEMO_0272,Dev Kudalkar 2,VLSI,1,3.2,80.7,13,13,90.5,5,4.8,1.0,22.0,Good,No,76.0,Pass
+GEC_DEMO_0273,Sakshi Gawas,VLSI,3,4.1,88.5,4,8,53.9,8,7.4,0.6,9.0,Good,Yes,64.7,Pass
+GEC_DEMO_0274,Sai Dessai,MECHANICAL,5,7.2,79.6,9,9,71.3,5,5.7,2.2,7.0,Good,Yes,76.5,Pass
+GEC_DEMO_0275,Parth Rodrigues,ETC,6,2.8,86.3,5,9,67.1,9,7.2,1.3,,Average,Yes,64.3,Pass
+GEC_DEMO_0276,Samarth Kudalkar,E&E,6,5.0,74.5,11,12,69.8,5,6.9,2.9,43.0,Good,No,70.8,Pass
+GEC_DEMO_0277,Rohan Shetye 2,COMPUTER,6,2.2,84.4,11,12,70.1,7,7.6,0.7,29.0,Good,No,67.6,Pass
+GEC_DEMO_0278,Samarth Tari,COMPUTER,5,2.4,90.8,7,10,52.5,7,5.6,1.2,26.0,Good,No,60.9,Pass
+GEC_DEMO_0279,Yash Shetye,IT,1,1.1,63.3,9,12,67.9,4,6.9,2.9,34.0,Good,Yes,56.5,Pass
+GEC_DEMO_0280,Prajakta Gawas,ETC,3,2.7,77.1,11,14,57.8,8,8.6,0.8,50.0,Good,No,62.9,Pass
+GEC_DEMO_0281,Aditi Parab,MECHANICAL,5,5.2,82.5,8,9,54.7,8,8.9,1.6,18.0,Good,Yes,72.9,Pass
+GEC_DEMO_0282,Sarthak Prabhu,COMPUTER,3,3.7,79.9,6,8,66.8,4,5.9,0.6,54.0,Good,Yes,65.0,Pass
+GEC_DEMO_0283,Aarav Fernandes,COMPUTER,4,5.4,86.1,9,10,82.3,7,6.6,0.5,15.0,Good,No,80.2,Pass
+GEC_DEMO_0284,Aditi Gawas,MECHANICAL,8,3.1,92.9,12,14,73.3,6,6.0,2.1,23.0,Good,Yes,74.3,Pass
+GEC_DEMO_0285,Bhargavi Naik,CIVIL,3,5.2,82.4,7,8,60.5,5,6.8,1.7,51.0,Average,No,71.3,Pass
+GEC_DEMO_0286,Advait Salgaonkar,CIVIL,8,3.0,86.1,8,9,81.8,6,8.0,2.1,36.0,Limited,No,73.3,Pass
+GEC_DEMO_0287,Omkar Rodrigues,MECHANICAL,8,5.0,85.6,8,9,91.1,8,7.9,4.6,37.0,Average,Yes,82.4,Pass
+GEC_DEMO_0288,Riya Mayekar 2,VLSI,2,6.0,91.4,9,10,53.1,9,6.4,4.7,11.0,Limited,Yes,79.5,Pass
+GEC_DEMO_0289,Yash Borkar,ETC,8,3.4,89.0,10,11,52.7,7,6.4,1.5,43.0,Good,No,65.3,Pass
+GEC_DEMO_0290,Sneha Gawas,MECHANICAL,6,1.9,96.5,10,11,91.4,10,5.8,1.4,54.0,Good,Yes,80.9,Pass
+GEC_DEMO_0291,Kiran Shetye,ETC,4,6.2,92.5,11,13,62.4,7,6.5,1.0,31.0,Good,No,77.5,Pass
+GEC_DEMO_0292,Omkar Desai,IT,6,2.6,75.6,11,13,80.5,9,,1.7,51.0,Average,No,70.7,Pass
+GEC_DEMO_0293,Krish Prabhu 2,VLSI,1,3.0,84.3,9,12,61.0,10,7.2,2.2,32.0,Good,Yes,71.4,Pass
+GEC_DEMO_0294,Samarth Khan,ETC,4,3.3,91.3,11,12,74.4,6,7.8,1.5,9.0,Average,Yes,73.8,Pass
+GEC_DEMO_0295,Neha Tari,MECHANICAL,3,5.0,83.0,6,8,78.1,9,7.8,2.3,32.0,Good,No,77.0,Pass
+GEC_DEMO_0296,Diya Salgaonkar,ETC,4,4.7,54.2,9,11,53.3,9,7.9,2.9,42.0,Good,Yes,62.6,Pass
+GEC_DEMO_0297,Janhavi Joshi,COMPUTER,7,4.6,99.5,8,10,84.8,10,7.7,0.4,43.0,Average,Yes,84.6,Pass
+GEC_DEMO_0298,Zoya Shetye,COMPUTER,3,3.4,86.1,13,14,60.8,5,6.4,2.2,36.0,Average,No,66.9,Pass
+GEC_DEMO_0299,Sneha Fadte,ETC,5,3.5,84.6,13,14,70.0,8,7.6,3.0,32.0,Average,Yes,71.9,Pass
+GEC_DEMO_0300,Diya Khan,MECHANICAL,6,4.9,85.0,12,13,64.8,9,6.2,0.9,52.0,Good,Yes,76.6,Pass
+GEC_DEMO_0301,Prajakta Mayekar,MECHANICAL,7,6.0,73.7,12,14,75.3,6,5.3,2.0,48.0,Good,Yes,76.2,Pass
+GEC_DEMO_0302,Sahil Parab,IT,4,2.1,82.0,7,11,76.6,6,5.6,1.1,20.0,Average,Yes,63.1,Pass
+GEC_DEMO_0303,Atharva Tari,COMPUTER,7,5.5,78.2,12,15,59.6,5,6.9,1.3,21.0,Good,Yes,67.1,Pass
+GEC_DEMO_0304,Madhav Hegde,ETC,6,5.1,73.6,11,13,84.5,6,7.7,4.7,43.0,Limited,Yes,75.2,Pass
+GEC_DEMO_0305,Aditi Kamat,COMPUTER,2,4.7,83.2,8,9,66.8,8,7.5,4.4,11.0,Average,No,72.8,Pass
+GEC_DEMO_0306,Prajakta Desai,IT,6,2.8,85.8,10,14,74.7,4,5.7,1.6,27.0,Good,Yes,67.2,Pass
+GEC_DEMO_0307,Shreya Borkar 2,E&E,3,3.9,92.7,8,11,78.1,8,6.8,4.1,27.0,Average,No,72.7,Pass
+GEC_DEMO_0308,Samarth D'Souza,IT,8,4.3,84.6,11,13,65.7,4,7.7,5.2,19.0,Average,Yes,66.3,Pass
+GEC_DEMO_0309,Siddharth Fadte,ETC,7,2.9,80.5,7,10,70.0,6,7.3,0.2,61.0,Good,Yes,67.6,Pass
+GEC_DEMO_0310,Sai Parab,COMPUTER,6,5.4,87.6,8,10,80.7,7,6.8,0.1,38.0,Good,Yes,79.1,Pass
+GEC_DEMO_0311,Diya Hegde,COMPUTER,6,3.2,92.5,8,8,53.0,5,6.5,4.9,22.0,Average,No,65.9,Pass
+GEC_DEMO_0312,Ameya Velip 2,CIVIL,1,5.9,91.7,10,15,66.8,7,6.3,0.5,8.0,Good,No,73.2,Pass
+GEC_DEMO_0313,Atharva Tari 2,ETC,7,1.8,79.7,7,11,95.8,4,7.2,3.5,19.0,Average,Yes,67.6,Pass
+GEC_DEMO_0314,Gaurav Rane 2,CIVIL,2,1.9,82.9,12,13,62.9,6,8.2,0.5,42.0,Average,No,65.1,Pass
+GEC_DEMO_0315,Soham Shirodkar 2,CIVIL,7,1.2,79.2,10,12,89.8,10,8.6,3.1,27.0,Good,No,75.3,Pass
+GEC_DEMO_0316,Parth Amonkar,COMPUTER,5,4.8,100.0,8,8,85.2,9,5.7,3.7,31.0,Good,No,86.0,Pass
+GEC_DEMO_0317,Riya Fadte 2,IT,8,2.6,91.9,8,12,84.6,4,7.3,3.0,32.0,Good,Yes,67.8,Pass
+GEC_DEMO_0318,Janhavi Tari,ETC,1,2.7,94.2,12,13,82.2,10,8.6,3.0,11.0,Limited,Yes,77.9,Pass
+GEC_DEMO_0319,Akash Borkar,COMPUTER,6,5.0,72.3,13,15,68.9,5,5.6,0.7,42.0,Good,No,69.0,Pass
+GEC_DEMO_0320,Darsh Desai,COMPUTER,4,6.1,85.8,9,13,74.0,8,7.2,4.7,44.0,Average,Yes,75.3,Pass
+GEC_DEMO_0321,Ananya Rane,CIVIL,5,2.8,96.0,10,11,89.4,6,8.4,1.3,46.0,Good,Yes,80.0,Pass
+GEC_DEMO_0322,Ameya Prabhu,CIVIL,3,5.6,69.6,14,14,52.1,4,8.1,0.7,21.0,Average,Yes,66.6,Pass
+GEC_DEMO_0323,Kiran Desai 2,IT,6,4.5,81.1,8,9,87.3,10,8.3,2.2,27.0,Good,No,77.9,Pass
+GEC_DEMO_0324,Anushka Kamat,MECHANICAL,2,3.8,63.0,8,9,67.0,7,7.2,2.4,42.0,Good,Yes,68.1,Pass
+GEC_DEMO_0325,Riya Naik,ETC,2,2.2,100.0,7,9,91.5,8,7.3,2.2,43.0,Good,Yes,76.9,Pass
+GEC_DEMO_0326,Shreya Shetye,MECHANICAL,1,1.9,84.5,6,9,90.8,5,8.5,0.2,33.0,Good,No,66.5,Pass
+GEC_DEMO_0327,Sakshi Rodrigues,IT,1,3.9,77.1,10,15,79.9,8,7.3,1.2,45.0,Good,Yes,70.2,Pass
+GEC_DEMO_0328,Zoya Kamat,ETC,1,4.0,91.1,10,13,83.0,9,7.9,3.1,23.0,Average,No,77.0,Pass
+GEC_DEMO_0329,Aditi Kamat 2,CIVIL,3,2.9,78.3,9,9,62.6,3,8.2,1.7,23.0,Good,No,64.7,Pass
+GEC_DEMO_0330,Samarth Gaonkar,CIVIL,2,2.4,88.7,9,11,79.7,4,6.8,2.5,25.0,Average,Yes,68.2,Pass
+GEC_DEMO_0331,Neha Prabhu,IT,6,2.0,77.6,14,14,76.1,3,7.6,2.8,39.0,Good,No,64.4,Pass
+GEC_DEMO_0332,Sai Mayekar,CIVIL,8,4.3,93.6,9,12,81.0,6,8.1,5.0,8.0,Good,No,80.9,Pass
+GEC_DEMO_0333,Ananya D'Souza,IT,8,4.7,75.7,8,11,89.6,6,7.7,2.9,10.0,Average,Yes,74.6,Pass
+GEC_DEMO_0334,Kiran Kudalkar,MECHANICAL,3,4.8,83.7,13,15,69.9,7,7.5,0.4,36.0,Average,Yes,74.6,Pass
+GEC_DEMO_0335,Advait Dessai,MECHANICAL,8,4.6,72.1,7,8,62.3,9,8.0,1.4,27.0,Average,Yes,68.9,Pass
+GEC_DEMO_0336,Arya Fernandes 3,IT,8,3.1,83.9,11,11,69.7,7,8.3,1.7,5.0,Good,No,71.8,Pass
+GEC_DEMO_0337,Janhavi Fernandes,CIVIL,5,5.9,81.1,13,14,73.5,10,7.8,0.8,25.0,Limited,No,82.4,Pass
+GEC_DEMO_0338,Sneha Fernandes,ETC,1,2.4,69.7,8,9,65.6,8,7.5,0.2,31.0,Good,Yes,62.6,Pass
+GEC_DEMO_0339,Arjun Shetye,VLSI,1,4.6,100.0,11,15,75.6,5,6.7,1.9,46.0,Average,Yes,75.4,Pass
+GEC_DEMO_0340,Yash Kamat,VLSI,5,3.2,80.3,8,9,75.7,4,7.3,3.0,30.0,Good,No,67.6,Pass
+GEC_DEMO_0341,Advait Borkar,CIVIL,5,2.3,82.2,12,12,67.6,3,8.0,0.2,38.0,Average,No,61.1,Pass
+GEC_DEMO_0342,Parth Shirodkar 2,CIVIL,5,2.9,91.6,13,15,87.0,7,7.1,7.1,30.0,Good,Yes,77.3,Pass
+GEC_DEMO_0343,Madhav Chari,COMPUTER,5,4.5,72.7,6,9,59.2,8,7.2,2.2,39.0,Good,Yes,63.5,Pass
+GEC_DEMO_0344,Advait Naik 2,E&E,6,5.3,71.4,5,8,79.4,5,7.6,1.4,34.0,Good,Yes,67.8,Pass
+GEC_DEMO_0345,Riya Rane 2,MECHANICAL,3,4.2,75.7,6,8,75.0,5,6.0,2.0,15.0,Good,No,71.8,Pass
+GEC_DEMO_0346,Darsh Amonkar,ETC,7,0.5,92.9,13,15,65.8,9,6.5,0.8,22.0,Average,No,68.7,Pass
+GEC_DEMO_0347,Rohan Kamat,ETC,6,4.8,72.5,10,13,76.8,9,7.3,0.2,26.0,Good,Yes,74.0,Pass
+GEC_DEMO_0348,Aniket Naik,COMPUTER,4,0.9,100.0,8,10,43.9,8,8.5,3.7,8.0,Good,Yes,60.5,Pass
+GEC_DEMO_0349,Bhargavi Rane,COMPUTER,6,6.4,84.7,8,10,74.6,7,7.1,1.4,40.0,Limited,No,77.6,Pass
+GEC_DEMO_0350,Parth Chari 2,MECHANICAL,6,4.1,86.1,14,14,76.3,10,8.3,0.1,35.0,Good,No,77.6,Pass
+GEC_DEMO_0351,Dev Mayekar,COMPUTER,3,4.0,87.1,5,8,69.1,6,7.5,1.2,16.0,Good,Yes,67.2,Pass
+GEC_DEMO_0352,Ameya Parab,MECHANICAL,2,5.1,76.1,8,11,69.8,5,7.2,1.6,45.0,Good,No,70.8,Pass
+GEC_DEMO_0353,Kiran Rodrigues,COMPUTER,3,3.4,82.1,14,14,58.6,9,7.4,1.1,30.0,Average,Yes,70.4,Pass
+GEC_DEMO_0354,Riya Borkar,ETC,7,3.4,76.4,12,12,55.3,3,7.2,0.9,48.0,Good,Yes,60.7,Pass
+GEC_DEMO_0355,Aniket Gaonkar,COMPUTER,2,3.3,81.5,9,12,55.9,8,7.2,4.4,29.0,Good,Yes,66.7,Pass
+GEC_DEMO_0356,Sneha Chari,E&E,5,4.0,80.1,6,8,67.0,8,7.1,1.5,58.0,Average,Yes,66.5,Pass
+GEC_DEMO_0357,Avani D'Souza,IT,8,3.9,96.6,9,9,49.6,5,6.5,3.6,22.0,Good,Yes,69.4,Pass
+GEC_DEMO_0358,Vedant Amonkar 2,ETC,1,4.1,84.4,12,12,60.6,4,8.2,0.8,46.0,Good,No,66.4,Pass
+GEC_DEMO_0359,Omkar Kamat,IT,5,0.5,82.7,8,11,80.9,3,7.0,2.5,56.0,Good,Yes,61.0,Pass
+GEC_DEMO_0360,Anushka Borkar,ETC,3,3.7,80.8,9,13,65.2,5,6.5,0.7,35.0,Good,Yes,62.4,Pass
+GEC_DEMO_0361,Chinmay Fadte,E&E,7,1.6,75.0,7,8,53.6,3,6.5,1.0,21.0,Good,Yes,55.0,Pass
+GEC_DEMO_0362,Parth D'Souza,COMPUTER,2,7.5,73.2,7,10,85.4,10,7.4,0.4,35.0,Average,Yes,83.0,Pass
+GEC_DEMO_0363,Krish Fernandes 2,MECHANICAL,5,4.9,80.3,7,9,61.9,7,7.4,1.3,33.0,Average,Yes,68.0,Pass
+GEC_DEMO_0364,Aditi Sawant,MECHANICAL,6,5.0,94.8,8,9,57.6,4,7.0,1.7,18.0,Good,Yes,68.6,Pass
+GEC_DEMO_0365,Dhruv Hegde,VLSI,2,4.4,87.3,9,14,58.0,3,6.1,2.8,52.0,Good,No,65.7,Pass
+GEC_DEMO_0366,Shreya Amonkar 2,IT,4,4.7,76.2,11,13,82.8,7,7.5,0.6,16.0,Good,Yes,71.3,Pass
+GEC_DEMO_0367,Vedant Khan,CIVIL,2,2.6,74.6,9,10,70.1,8,6.4,3.4,36.0,Good,No,66.7,Pass
+GEC_DEMO_0368,Shreya D'Souza,COMPUTER,5,4.9,79.3,7,9,68.6,4,7.5,4.9,47.0,Average,Yes,67.1,Pass
+GEC_DEMO_0369,Anushka Kamat 2,VLSI,1,4.9,92.6,9,9,77.0,3,5.5,5.4,48.0,Good,No,77.3,Pass
+GEC_DEMO_0370,Bhargavi Mayekar,COMPUTER,5,4.0,92.3,10,13,68.9,7,8.0,3.1,41.0,Limited,Yes,73.9,Pass
+GEC_DEMO_0371,Krish Tari,IT,3,4.8,78.4,11,14,72.3,7,7.5,1.2,52.0,Average,Yes,71.9,Pass
+GEC_DEMO_0372,Bhargavi Mayekar 2,COMPUTER,3,5.2,76.3,7,11,59.3,3,6.9,2.6,15.0,Good,Yes,61.4,Pass
+GEC_DEMO_0373,Arjun Sawant 2,CIVIL,7,3.8,87.1,4,8,74.1,7,6.8,1.4,16.0,Good,Yes,65.2,Pass
+GEC_DEMO_0374,Riya Amonkar,ETC,8,2.3,74.7,8,12,57.7,9,6.7,2.3,42.0,Average,No,59.3,Pass
+GEC_DEMO_0375,Sarthak Fernandes,VLSI,4,4.9,79.8,11,13,70.8,6,7.6,1.3,37.0,Average,No,73.6,Pass
+GEC_DEMO_0376,Kiran Naik,COMPUTER,7,5.9,98.2,7,8,49.7,8,7.0,1.5,34.0,Average,No,75.3,Pass
+GEC_DEMO_0377,Ameya Fadte,CIVIL,4,2.2,76.0,9,11,72.5,3,8.3,0.5,24.0,Good,Yes,62.9,Pass
+GEC_DEMO_0378,Yash Joshi,IT,6,5.4,83.4,9,11,83.3,7,6.8,2.3,22.0,Average,Yes,77.7,Pass
+GEC_DEMO_0379,Tanvi D'Souza,COMPUTER,4,4.2,82.1,11,13,74.9,8,7.8,1.6,50.0,Good,Yes,74.8,Pass
+GEC_DEMO_0380,Mihir Mayekar,E&E,2,4.6,91.3,8,9,69.3,8,8.3,2.3,41.0,Good,No,78.9,Pass
+GEC_DEMO_0381,Nikhil Desai,COMPUTER,7,4.9,84.7,9,12,69.3,10,6.8,0.6,62.0,Good,Yes,73.8,Pass
+GEC_DEMO_0382,Gaurav Naik,ETC,3,2.4,68.3,5,8,66.5,10,7.6,0.6,24.0,Good,Yes,65.7,Pass
+GEC_DEMO_0383,Bhargavi Shetye,ETC,3,4.2,71.8,11,12,41.0,3,6.3,1.0,39.0,Average,Yes,59.0,Pass
+GEC_DEMO_0384,Anushka Prabhu 2,COMPUTER,4,5.2,87.8,8,12,80.9,3,5.5,4.5,48.0,Good,Yes,72.4,Pass
+GEC_DEMO_0385,Sana Parab,ETC,7,5.7,81.6,10,10,75.9,9,7.3,2.7,36.0,Good,No,83.3,Pass
+GEC_DEMO_0386,Prajakta Velip,IT,6,5.0,77.4,6,8,58.4,7,7.3,5.3,21.0,Good,Yes,67.6,Pass
+GEC_DEMO_0387,Riya Shetye,COMPUTER,2,2.5,68.8,12,15,69.0,6,7.5,0.3,12.0,Good,Yes,64.3,Pass
+GEC_DEMO_0388,Siddharth Fadte 2,VLSI,1,4.1,84.8,9,10,84.3,4,6.2,2.1,43.0,Good,No,77.1,Pass
+GEC_DEMO_0389,Mihir Gaonkar,E&E,5,3.5,77.6,8,11,55.0,6,7.3,2.1,29.0,Limited,No,61.6,Pass
+GEC_DEMO_0390,Dhruv Amonkar,COMPUTER,2,3.9,89.1,5,8,70.0,4,6.0,2.6,23.0,Good,Yes,65.5,Pass
+GEC_DEMO_0391,Sneha Rane,MECHANICAL,2,5.3,85.3,9,11,77.1,6,6.7,0.7,40.0,,No,76.2,Pass
+GEC_DEMO_0392,Yash Dessai,IT,7,1.9,73.2,12,13,60.8,8,8.1,1.5,24.0,Good,Yes,60.4,Pass
+GEC_DEMO_0393,Arjun Salgaonkar,E&E,6,4.5,69.7,12,15,76.6,10,6.0,1.1,51.0,Average,No,76.0,Pass
+GEC_DEMO_0394,Riya Borkar 2,IT,4,4.4,76.6,6,8,59.1,4,7.7,0.3,23.0,Good,Yes,64.6,Pass
+GEC_DEMO_0395,Janhavi Salgaonkar,E&E,6,2.5,85.7,11,14,83.9,4,6.1,8.0,35.0,Good,Yes,66.4,Pass
+GEC_DEMO_0396,Sakshi Khan,MECHANICAL,3,5.3,89.0,14,14,65.2,3,7.4,1.7,41.0,Average,No,69.8,Pass
+GEC_DEMO_0397,Akash Parab,IT,4,3.0,63.0,9,14,59.7,8,6.3,0.6,48.0,Good,No,60.1,Pass
+GEC_DEMO_0398,Dhruv Fernandes,CIVIL,1,3.9,95.6,9,11,73.6,9,6.2,1.1,62.0,Average,Yes,76.3,Pass
+GEC_DEMO_0399,Aniket Salgaonkar,E&E,7,0.5,84.7,12,12,48.4,5,5.7,5.9,18.0,Good,No,58.3,Pass
+GEC_DEMO_0400,Janhavi Hegde,E&E,1,5.3,78.9,9,11,67.6,5,7.4,2.3,,Limited,No,67.3,Pass
+GEC_DEMO_0401,Tanvi Velip 2,COMPUTER,8,3.4,62.6,14,15,67.6,8,5.8,0.1,42.0,Average,Yes,66.2,Pass
+GEC_DEMO_0402,Shreya Chari,IT,4,3.4,71.8,10,14,93.8,6,7.2,1.5,32.0,Average,No,71.6,Pass
+GEC_DEMO_0403,Ameya Hegde,IT,3,5.8,93.5,9,12,77.2,5,6.9,0.2,26.0,Good,No,76.6,Pass
+GEC_DEMO_0404,Riya Dessai,COMPUTER,4,1.2,82.7,7,8,83.3,10,5.5,1.0,21.0,Average,Yes,72.8,Pass
+GEC_DEMO_0405,Neha Shetye,COMPUTER,5,5.0,83.0,7,9,60.8,8,6.8,2.1,49.0,Average,No,70.0,Pass
+GEC_DEMO_0406,Esha Rane,E&E,8,5.2,78.6,8,11,56.2,9,6.3,3.8,52.0,Limited,Yes,70.6,Pass
+GEC_DEMO_0407,Sarthak Borkar,IT,8,1.1,77.1,10,11,51.7,7,7.4,0.5,52.0,Average,Yes,54.4,Pass
+GEC_DEMO_0408,Kiran Shetye 2,MECHANICAL,6,4.2,78.7,7,9,78.1,4,7.2,2.9,39.0,Good,No,67.4,Pass
+GEC_DEMO_0409,Omkar Fernandes 2,COMPUTER,8,3.3,90.8,12,13,58.2,10,8.2,2.1,64.0,Good,Yes,73.0,Pass
+GEC_DEMO_0410,Mihir Sawant,MECHANICAL,2,2.4,90.5,9,11,54.1,7,7.3,3.5,30.0,Good,No,63.4,Pass
+GEC_DEMO_0411,Ishan Borkar,COMPUTER,1,2.0,88.3,12,12,82.4,6,7.2,1.2,58.0,Good,Yes,71.5,Pass
+GEC_DEMO_0412,Bhargavi Naik 2,CIVIL,6,4.8,79.7,11,14,81.3,7,7.5,0.5,14.0,Good,Yes,76.9,Pass
+GEC_DEMO_0413,Sakshi Rane,CIVIL,8,5.4,86.0,9,13,64.5,10,7.3,2.4,28.0,Good,Yes,77.7,Pass
+GEC_DEMO_0414,Sakshi Patil,MECHANICAL,1,2.3,97.5,14,14,65.4,10,6.9,0.5,29.0,Good,Yes,76.0,Pass
+GEC_DEMO_0415,Soham Kudalkar,IT,8,2.5,90.8,7,11,68.0,3,7.5,1.1,5.0,Average,Yes,61.6,Pass
+GEC_DEMO_0416,Sahil Patil,COMPUTER,6,4.9,95.6,7,9,60.1,9,7.3,0.8,63.0,Good,No,77.0,Pass
+GEC_DEMO_0417,Nikhil Fadte,MECHANICAL,6,7.1,68.4,9,12,58.4,3,7.5,0.2,41.0,Good,No,67.0,Pass
+GEC_DEMO_0418,Esha Naik,E&E,3,1.7,62.7,12,12,71.8,6,6.1,0.2,38.0,Good,Yes,60.3,Pass
+GEC_DEMO_0419,Sarthak Shirodkar,COMPUTER,7,1.8,90.2,9,10,69.8,5,7.0,2.6,38.0,Good,No,66.2,Pass
+GEC_DEMO_0420,Akash Desai,E&E,6,2.3,80.8,12,14,59.3,10,7.8,1.3,41.0,Good,Yes,68.2,Pass
+GEC_DEMO_0421,Parth Khan,COMPUTER,7,2.3,46.4,12,12,81.4,6,7.6,2.0,60.0,Good,No,63.3,Pass
+GEC_DEMO_0422,Aniket Rodrigues,ETC,8,5.4,89.8,10,12,94.4,6,7.6,3.5,58.0,Good,Yes,81.7,Pass
+GEC_DEMO_0423,Janhavi Sawant,E&E,5,2.4,93.3,9,14,58.3,5,7.6,2.7,31.0,Good,No,63.1,Pass
+GEC_DEMO_0424,Rohan Gawas,MECHANICAL,8,6.9,85.5,9,13,66.5,5,7.4,6.0,36.0,Average,Yes,75.7,Pass
+GEC_DEMO_0425,Chinmay Mayekar,IT,3,4.4,83.7,5,8,43.4,8,7.9,2.0,35.0,Average,No,64.4,Pass
+GEC_DEMO_0426,Rohan D'Souza,COMPUTER,5,5.2,67.1,7,9,82.2,6,6.4,1.4,43.0,Good,Yes,73.1,Pass
+GEC_DEMO_0427,Omkar Shetye,IT,8,4.7,93.1,10,12,52.9,5,7.7,0.9,34.0,Good,Yes,68.2,Pass
+GEC_DEMO_0428,Soham Parab,COMPUTER,1,2.4,100.0,10,12,69.5,4,7.3,0.6,40.0,Average,Yes,70.5,Pass
+GEC_DEMO_0429,Aditi Rodrigues 3,VLSI,3,1.9,100.0,13,15,76.8,9,6.9,2.3,49.0,Good,No,77.0,Pass
+GEC_DEMO_0430,Dev Shirodkar 2,CIVIL,1,5.1,82.8,8,9,79.2,6,7.3,1.0,50.0,Good,No,76.1,Pass
+GEC_DEMO_0431,Rohan Gaonkar,E&E,6,5.5,83.8,14,14,55.2,10,7.3,3.1,41.0,Good,No,74.3,Pass
+GEC_DEMO_0432,Kiran Kamat,COMPUTER,3,4.4,90.2,10,11,60.3,8,6.1,1.7,32.0,Good,Yes,73.0,Pass
+GEC_DEMO_0433,Shreya Shetye 2,COMPUTER,2,3.8,70.8,6,9,66.2,10,6.4,3.1,34.0,Good,No,67.2,Pass
+GEC_DEMO_0434,Vedant Rodrigues,VLSI,1,4.0,76.9,8,10,49.9,3,7.8,2.2,36.0,Good,Yes,58.4,Pass
+GEC_DEMO_0435,Aarav Prabhu,COMPUTER,6,4.1,89.4,11,15,61.2,5,6.5,1.3,45.0,Good,Yes,68.4,Pass
+GEC_DEMO_0436,Kiran Fernandes,COMPUTER,3,1.9,85.2,8,10,76.3,10,7.8,1.1,37.0,Good,Yes,70.4,Pass
+GEC_DEMO_0437,Advait Shirodkar,MECHANICAL,8,3.9,77.0,7,11,81.4,10,7.7,1.6,55.0,Good,No,72.2,Pass
+GEC_DEMO_0438,Arya Fernandes 4,IT,8,3.8,81.4,12,12,53.9,3,7.5,1.6,33.0,Good,No,63.0,Pass
+GEC_DEMO_0439,Diya Salgaonkar 2,ETC,3,1.3,70.2,7,10,58.3,9,7.2,3.4,21.0,Good,No,58.1,Pass
+GEC_DEMO_0440,Parth Chari 3,ETC,3,0.5,78.5,13,15,60.2,4,8.2,0.6,47.0,Good,Yes,55.7,Pass
+GEC_DEMO_0441,Rohan Desai,MECHANICAL,8,3.5,93.6,14,15,84.8,6,7.5,0.2,9.0,Good,No,74.8,Pass
+GEC_DEMO_0442,Dhruv Kudalkar,ETC,3,1.0,76.1,14,15,61.8,3,8.1,1.8,48.0,Good,Yes,59.6,Pass
+GEC_DEMO_0443,Diya Gawas,CIVIL,5,0.5,75.1,11,13,70.7,5,7.9,4.7,33.0,Good,Yes,58.0,Pass
+GEC_DEMO_0444,Ishan Mayekar,ETC,7,1.4,78.1,9,11,82.8,10,7.0,1.7,27.0,Good,Yes,70.3,Pass
+GEC_DEMO_0445,Soham Prabhu,IT,7,4.1,70.4,12,12,77.5,4,6.9,1.5,25.0,Average,No,70.3,Pass
+GEC_DEMO_0446,Dhruv Rane,COMPUTER,7,3.7,89.1,8,9,77.8,9,7.1,5.4,11.0,Good,Yes,78.8,Pass
+GEC_DEMO_0447,Soham Parab 2,MECHANICAL,5,3.9,66.9,5,8,84.0,5,7.5,0.6,6.0,Average,Yes,64.5,Pass
+GEC_DEMO_0448,Kavya Parab,COMPUTER,3,6.2,73.0,11,12,48.6,4,6.3,1.2,29.0,Good,No,66.0,Pass
+GEC_DEMO_0449,Dev Khan,E&E,2,4.5,84.9,8,12,73.4,3,5.9,4.3,43.0,Good,Yes,71.4,Pass
+GEC_DEMO_0450,Gaurav Chari 3,E&E,5,6.0,62.2,12,13,71.8,6,7.0,0.8,22.0,Limited,Yes,71.1,Pass
+GEC_DEMO_0451,Kiran Parab,VLSI,8,4.1,97.6,7,8,61.7,6,6.0,1.8,49.0,Limited,Yes,69.6,Pass
+GEC_DEMO_0452,Madhav Joshi,COMPUTER,5,5.3,95.7,13,13,81.7,7,6.6,2.6,19.0,Good,Yes,85.5,Pass
+GEC_DEMO_0453,Shreya Khan,COMPUTER,4,6.0,82.8,9,11,84.2,7,7.3,1.6,42.0,Average,Yes,80.2,Pass
+GEC_DEMO_0454,Arjun Rodrigues,E&E,6,6.6,94.9,9,11,62.4,10,7.4,2.2,31.0,Good,No,82.6,Pass
+GEC_DEMO_0455,Aarav Kamat,IT,2,3.5,85.4,8,10,51.5,5,8.3,2.0,23.0,Average,No,64.0,Pass
+GEC_DEMO_0456,Neha Gawas,COMPUTER,2,2.1,88.8,11,12,36.0,4,6.2,2.2,16.0,Average,Yes,55.6,Pass
+GEC_DEMO_0457,Zoya Shirodkar,CIVIL,3,3.9,94.1,11,12,93.7,10,5.8,3.3,51.0,Good,Yes,82.9,Pass
+GEC_DEMO_0458,Parth Rane 2,MECHANICAL,7,5.7,100.0,13,15,62.6,7,7.7,1.4,32.0,Good,Yes,81.6,Pass
+GEC_DEMO_0459,Darsh Kudalkar,COMPUTER,7,6.0,85.1,13,13,73.1,8,6.0,0.6,5.0,Good,No,83.1,Pass
+GEC_DEMO_0460,Aarav Mayekar 2,COMPUTER,1,4.0,100.0,7,8,70.1,7,7.5,2.5,27.0,Good,No,75.5,Pass
+GEC_DEMO_0461,Atharva Tari 3,CIVIL,2,4.3,94.0,5,8,88.1,10,5.7,3.4,16.0,Good,Yes,81.1,Pass
+GEC_DEMO_0462,Kiran Mayekar,E&E,5,6.0,99.1,11,14,52.4,5,6.3,0.1,28.0,Average,Yes,74.2,Pass
+GEC_DEMO_0463,Anushka Sawant,VLSI,6,4.0,83.3,11,13,66.8,3,7.6,2.3,55.0,Average,Yes,67.6,Pass
+GEC_DEMO_0464,Yash Fadte,ETC,8,4.7,86.8,9,10,59.6,7,5.9,0.3,47.0,Average,Yes,73.3,Pass
+GEC_DEMO_0465,Aditi Dessai 2,COMPUTER,4,5.1,100.0,6,9,63.8,5,7.0,,42.0,Average,Yes,73.7,Pass
+GEC_DEMO_0466,Sneha Shetye,COMPUTER,2,3.5,76.8,12,12,56.3,10,7.4,2.7,29.0,Average,Yes,70.7,Pass
+GEC_DEMO_0467,Omkar Fadte,ETC,3,2.6,70.8,11,14,56.8,6,6.1,0.4,48.0,Average,Yes,59.5,Pass
+GEC_DEMO_0468,Shreya Prabhu,MECHANICAL,7,7.3,100.0,14,15,72.1,8,7.4,0.6,46.0,Good,No,88.3,Pass
+GEC_DEMO_0469,Advait Naik 3,COMPUTER,6,3.0,62.3,10,11,71.3,4,7.9,2.5,49.0,Good,Yes,62.6,Pass
+GEC_DEMO_0470,Samarth Chari,IT,4,2.3,92.5,11,15,55.0,7,7.0,1.6,16.0,Average,No,62.6,Pass
+GEC_DEMO_0471,Arya Velip,IT,5,3.4,75.9,10,11,67.4,3,6.9,1.4,41.0,Good,Yes,64.9,Pass
+GEC_DEMO_0472,Sakshi Rodrigues 2,E&E,2,4.0,80.7,8,8,56.8,4,8.0,1.8,53.0,Average,Yes,66.5,Pass
+GEC_DEMO_0473,Parth Dessai 4,COMPUTER,5,4.2,64.4,10,12,78.3,6,6.0,4.8,15.0,Good,Yes,67.2,Pass
+GEC_DEMO_0474,Sarthak Rane,CIVIL,5,3.3,80.5,14,15,79.2,4,7.6,0.8,36.0,Good,Yes,71.5,Pass
+GEC_DEMO_0475,Aniket Joshi,IT,2,4.5,68.7,7,11,83.3,10,7.1,6.3,27.0,Average,Yes,72.8,Pass
+GEC_DEMO_0476,Yash Joshi 2,CIVIL,2,6.2,81.7,7,11,66.3,7,7.5,0.5,26.0,Good,No,71.1,Pass
+GEC_DEMO_0477,Esha Tari,CIVIL,7,3.3,86.8,10,11,62.5,9,7.0,1.8,28.0,Good,Yes,69.2,Pass
+GEC_DEMO_0478,Nikhil Patil 2,CIVIL,4,3.9,67.7,5,8,69.6,7,6.2,,24.0,Good,No,64.5,Pass
+GEC_DEMO_0479,Siddharth Rane,IT,2,5.8,92.2,10,14,63.5,9,7.5,2.4,24.0,Good,Yes,73.7,Pass
+GEC_DEMO_0480,Advait Kudalkar,CIVIL,5,2.4,91.5,7,9,69.8,10,7.4,4.0,35.0,Good,No,71.0,Pass
+GEC_DEMO_0481,Sahil Tari 2,COMPUTER,4,2.1,60.8,11,12,63.5,6,6.6,2.0,42.0,Good,Yes,59.4,Pass
+GEC_DEMO_0482,Ananya Gawas 2,IT,7,2.8,77.2,12,12,55.5,8,5.8,1.4,28.0,Good,No,66.1,Pass
+GEC_DEMO_0483,Aniket Borkar,COMPUTER,2,3.6,74.3,10,10,72.9,9,7.3,4.1,35.0,Good,Yes,72.5,Pass
+GEC_DEMO_0484,Rohan Hegde,ETC,7,5.1,100.0,6,9,79.9,5,7.3,1.9,5.0,Limited,Yes,72.4,Pass
+GEC_DEMO_0485,Bhargavi Tari,COMPUTER,8,1.5,82.3,6,8,77.8,6,5.8,3.4,51.0,Good,Yes,63.0,Pass
+GEC_DEMO_0486,Janhavi Prabhu,VLSI,8,2.9,68.0,8,9,55.5,9,6.2,1.3,34.0,Good,No,60.9,Pass
+GEC_DEMO_0487,Samarth Hegde,COMPUTER,2,2.2,84.0,8,10,85.8,5,5.3,1.0,25.0,Good,Yes,71.2,Pass
+GEC_DEMO_0488,Chinmay Parab,ETC,4,1.6,68.9,12,14,49.3,5,7.3,2.9,5.0,Limited,No,56.3,Pass
+GEC_DEMO_0489,Esha Gawas,CIVIL,3,2.0,74.5,6,9,61.8,3,7.2,1.0,43.0,Good,Yes,58.1,Pass
+GEC_DEMO_0490,Atharva Gaonkar,COMPUTER,8,4.8,95.6,6,9,71.2,6,6.7,1.5,18.0,Good,Yes,72.3,Pass
+GEC_DEMO_0491,Chinmay Velip,E&E,8,3.9,82.2,11,11,70.5,9,7.6,1.5,51.0,Limited,Yes,72.8,Pass
+GEC_DEMO_0492,Sarthak Sawant,ETC,8,4.0,83.4,11,14,66.3,4,8.7,2.5,19.0,Good,Yes,66.5,Pass
+GEC_DEMO_0493,Ameya Rodrigues,MECHANICAL,7,4.7,93.5,12,15,64.0,6,6.6,4.7,5.0,Good,Yes,70.9,Pass
+GEC_DEMO_0494,Samarth Desai 3,MECHANICAL,4,4.4,100.0,12,12,65.2,6,6.3,4.1,48.0,Good,No,77.0,Pass
+GEC_DEMO_0495,Rohan Prabhu,CIVIL,1,4.4,85.7,10,12,82.2,3,8.0,1.1,36.0,Good,No,76.9,Pass
+GEC_DEMO_0496,Ananya Mayekar,MECHANICAL,1,6.5,71.1,9,9,82.9,3,5.6,1.8,5.0,Good,No,75.6,Pass
+GEC_DEMO_0497,Shreya Chari 2,E&E,2,4.7,81.7,11,11,71.3,3,5.3,0.3,61.0,Good,Yes,73.8,Pass
+GEC_DEMO_0498,Shreya Kamat,IT,3,0.5,85.5,12,14,57.7,10,7.8,2.1,19.0,Good,Yes,61.8,Pass
+GEC_DEMO_0499,Omkar Gawas 2,COMPUTER,5,4.6,80.8,15,15,77.5,7,7.0,1.1,5.0,Average,No,78.9,Pass
+GEC_DEMO_0500,Ishan Khan,COMPUTER,6,5.2,89.1,7,9,87.2,5,6.1,2.3,67.0,Good,Yes,77.9,Pass
+GEC_DEMO_0501,Gaurav Chari 4,CIVIL,2,4.5,74.8,6,11,78.6,8,6.7,3.3,19.0,Good,No,70.0,Pass
+GEC_DEMO_0502,Tanvi Tari,IT,5,3.0,100.0,7,8,62.0,6,7.0,0.3,12.0,Average,No,71.4,Pass
+GEC_DEMO_0503,Krish Kudalkar 2,CIVIL,4,2.3,87.5,8,9,65.5,3,6.9,0.8,33.0,Good,Yes,65.9,Pass
+GEC_DEMO_0504,Arya Hegde,IT,2,3.9,65.8,10,15,86.4,7,7.4,3.5,37.0,Good,No,68.9,Pass
+GEC_DEMO_0505,Soham Hegde,COMPUTER,2,4.8,82.5,6,9,73.6,6,6.7,1.3,23.0,Good,No,73.6,Pass
+GEC_DEMO_0506,Anushka Joshi,IT,7,5.0,89.8,8,11,57.8,4,5.7,4.7,45.0,Good,Yes,65.7,Pass
+GEC_DEMO_0507,Nikhil Desai 2,IT,4,1.2,86.8,6,10,85.3,7,5.8,3.5,36.0,Good,Yes,67.9,Pass
+GEC_DEMO_0508,Neha Salgaonkar,COMPUTER,6,4.3,98.4,12,14,63.9,6,7.9,5.2,64.0,Good,No,69.6,Pass
+GEC_DEMO_0509,Riya D'Souza,ETC,3,5.6,71.8,10,14,90.6,3,6.6,0.9,37.0,Good,No,71.0,Pass
+GEC_DEMO_0510,Anushka Amonkar,MECHANICAL,2,4.9,66.4,13,13,98.0,10,6.6,2.6,23.0,Good,Yes,80.8,Pass
+GEC_DEMO_0511,Darsh Fadte 2,ETC,3,7.4,91.1,9,9,89.1,9,5.0,1.9,47.0,Good,Yes,89.1,Pass
+GEC_DEMO_0512,Aniket Salgaonkar 2,ETC,7,2.8,77.9,10,13,80.0,7,5.9,2.9,37.0,Average,No,69.4,Pass
+GEC_DEMO_0513,Prajakta Parab,VLSI,8,2.1,78.5,10,12,71.2,7,7.1,0.6,35.0,Good,Yes,65.3,Pass
+GEC_DEMO_0514,Sakshi Prabhu 3,COMPUTER,5,5.0,91.0,10,10,53.7,6,6.6,1.4,31.0,Good,Yes,70.1,Pass
+GEC_DEMO_0515,Rohan Desai 2,ETC,6,5.9,72.3,13,14,62.2,10,7.2,1.7,57.0,Good,No,76.1,Pass
+GEC_DEMO_0516,Neha Parab 2,VLSI,3,2.4,68.5,6,9,57.0,3,7.4,7.3,48.0,Average,No,50.3,Pass
+GEC_DEMO_0517,Arya Fadte,ETC,8,3.9,70.5,10,12,63.8,7,6.7,1.0,35.0,Good,Yes,68.2,Pass
+GEC_DEMO_0518,Kavya Rane,E&E,5,4.1,89.5,10,11,74.5,4,9.1,2.0,35.0,Good,Yes,71.0,Pass
+GEC_DEMO_0519,Kavya Rane 2,ETC,6,4.4,80.6,10,12,64.2,8,6.7,3.5,19.0,Average,Yes,70.6,Pass
+GEC_DEMO_0520,Kiran Khan,COMPUTER,5,5.6,74.5,11,12,80.9,3,7.6,1.4,14.0,Average,Yes,74.8,Pass
+GEC_DEMO_0521,Aarav Joshi 3,MECHANICAL,5,7.1,60.8,8,10,60.8,10,7.4,0.5,21.0,Good,No,72.6,Pass
+GEC_DEMO_0522,Anushka Fadte,VLSI,8,3.0,89.2,8,14,76.2,5,8.5,1.8,32.0,Good,No,63.9,Pass
+GEC_DEMO_0523,Sakshi Mayekar,VLSI,5,3.4,71.1,12,12,84.3,9,6.8,2.9,25.0,Average,No,73.6,Pass
+GEC_DEMO_0524,Parth Parab,E&E,6,1.7,88.8,9,13,61.8,6,6.6,2.2,33.0,Average,No,60.7,Pass
+GEC_DEMO_0525,Anushka Velip,IT,4,4.9,77.8,9,12,68.5,4,6.6,0.6,58.0,Average,Yes,68.7,Pass
+GEC_DEMO_0526,Riya Naik 2,E&E,3,2.2,85.1,10,12,58.3,8,7.4,0.4,5.0,Limited,Yes,64.7,Pass
+GEC_DEMO_0527,Dhruv Gaonkar,VLSI,2,4.0,74.8,8,13,61.3,3,7.6,3.3,20.0,Average,No,57.8,Pass
+GEC_DEMO_0528,Shreya Khan 2,VLSI,4,4.5,85.5,12,15,72.6,10,6.5,1.1,27.0,Good,No,72.8,Pass
+GEC_DEMO_0529,Ananya Rane 2,IT,5,5.7,60.6,10,15,72.6,7,7.3,1.1,26.0,Average,Yes,66.3,Pass
+GEC_DEMO_0530,Akash Prabhu,VLSI,1,3.7,74.1,7,10,80.0,6,5.8,3.7,37.0,Good,No,70.2,Pass
+GEC_DEMO_0531,Sakshi Mayekar 2,MECHANICAL,8,3.1,87.5,8,12,61.1,8,8.3,0.3,38.0,Good,Yes,69.7,Pass
+GEC_DEMO_0532,Soham Shirodkar 3,CIVIL,3,2.9,97.4,5,8,72.5,6,8.0,0.5,37.0,Average,No,70.2,Pass
+GEC_DEMO_0533,Madhav Rodrigues,COMPUTER,8,5.2,86.9,12,13,78.1,5,7.7,4.6,31.0,Average,Yes,77.9,Pass
+GEC_DEMO_0534,Dhruv Salgaonkar,VLSI,7,3.3,74.9,14,15,68.6,4,7.0,1.5,64.0,Average,Yes,66.0,Pass
+GEC_DEMO_0535,Kiran Kudalkar 2,MECHANICAL,1,3.9,75.6,8,9,73.2,4,6.6,1.2,17.0,Average,Yes,66.1,Pass
+GEC_DEMO_0536,Gaurav Kamat,COMPUTER,4,4.9,83.0,10,13,51.9,10,7.5,3.1,14.0,Good,No,70.6,Pass
+GEC_DEMO_0537,Sneha Kamat,ETC,2,5.6,69.7,6,9,58.6,7,6.5,3.6,47.0,Good,No,66.1,Pass
+GEC_DEMO_0538,Soham Velip,COMPUTER,7,5.4,92.7,6,13,83.9,5,5.9,1.0,34.0,Good,Yes,73.0,Pass
+GEC_DEMO_0539,Janhavi Gawas,MECHANICAL,3,1.8,100.0,7,9,48.9,3,7.5,0.9,21.0,Limited,Yes,60.5,Pass
+GEC_DEMO_0540,Vedant Shetye,E&E,3,2.3,76.8,6,8,47.6,4,7.2,6.5,37.0,Limited,Yes,52.0,Pass
+GEC_DEMO_0541,Siddharth Mayekar 2,E&E,7,4.3,59.2,8,9,71.4,9,8.2,1.2,34.0,Limited,No,72.5,Pass
+GEC_DEMO_0542,Janhavi Gawas 2,CIVIL,5,4.6,74.0,13,14,51.3,4,6.5,0.8,18.0,Good,No,61.5,Pass
+GEC_DEMO_0543,Kavya Kamat,MECHANICAL,1,4.2,80.0,12,15,88.0,4,7.8,2.4,30.0,Good,No,73.5,Pass
+GEC_DEMO_0544,Diya Gaonkar,COMPUTER,1,5.6,76.3,10,12,85.1,8,6.6,1.4,43.0,Good,Yes,81.8,Pass
+GEC_DEMO_0545,Mihir Pereira,MECHANICAL,1,6.0,94.7,8,11,61.1,9,7.1,0.3,27.0,Good,Yes,76.0,Pass
+GEC_DEMO_0546,Advait D'Souza,ETC,2,3.7,92.4,10,12,71.2,7,7.5,1.6,63.0,Good,Yes,73.6,Pass
+GEC_DEMO_0547,Gaurav Velip,COMPUTER,4,4.1,73.6,12,14,58.6,4,7.2,1.5,14.0,Good,Yes,61.2,Pass
+GEC_DEMO_0548,Tanvi Pereira,IT,4,5.3,94.3,8,12,45.8,5,6.5,1.3,19.0,Good,Yes,65.8,Pass
+GEC_DEMO_0549,Soham Patil,ETC,3,5.0,99.3,7,9,73.0,6,7.8,2.0,51.0,Good,Yes,77.3,Pass
+GEC_DEMO_0550,Anushka Khan,CIVIL,8,2.4,64.9,8,10,51.4,7,6.2,3.5,43.0,Good,No,59.1,Pass
+GEC_DEMO_0551,Arjun Dessai,CIVIL,5,2.0,79.6,9,13,77.1,7,8.2,0.6,25.0,Average,Yes,62.6,Pass
+GEC_DEMO_0552,Arjun Shetye 2,COMPUTER,6,1.3,83.3,7,10,87.6,4,5.5,4.4,49.0,Good,No,62.5,Pass
+GEC_DEMO_0553,Advait Velip 2,ETC,2,3.8,96.7,11,11,73.8,9,7.9,2.5,20.0,Good,No,77.0,Pass
+GEC_DEMO_0554,Parth Fernandes,CIVIL,2,3.0,66.1,11,12,87.4,10,6.5,3.3,47.0,Good,Yes,69.4,Pass
+GEC_DEMO_0555,Aditi Fadte,E&E,3,2.8,78.8,11,14,68.7,7,6.7,2.5,28.0,Good,No,65.3,Pass
+GEC_DEMO_0556,Neha Parab 3,CIVIL,3,1.6,74.9,8,10,79.7,4,5.7,1.0,18.0,Good,Yes,64.1,Pass
+GEC_DEMO_0557,Omkar Mayekar,E&E,6,3.7,73.1,13,14,81.0,6,7.0,3.2,6.0,Good,No,71.0,Pass
+GEC_DEMO_0558,Samarth Naik,COMPUTER,1,1.7,80.0,10,14,65.0,6,7.3,1.1,39.0,Good,Yes,60.9,Pass
+GEC_DEMO_0559,Kiran Pereira,ETC,1,2.2,89.7,8,10,76.8,4,7.7,2.5,19.0,Good,Yes,64.9,Pass
+GEC_DEMO_0560,Dev Tari,ETC,6,3.3,88.5,13,14,71.6,9,8.0,1.1,71.0,Good,No,75.5,Pass
+GEC_DEMO_0561,Diya Rane,CIVIL,2,4.4,95.7,7,10,51.2,10,7.0,1.7,47.0,Average,Yes,70.9,Pass
+GEC_DEMO_0562,Prajakta Parab 2,IT,8,3.8,76.9,7,8,60.5,4,7.1,1.9,29.0,Limited,Yes,64.6,Pass
+GEC_DEMO_0563,Advait Khan,COMPUTER,1,4.7,83.5,6,10,61.3,9,7.4,0.8,23.0,Average,Yes,69.6,Pass
+GEC_DEMO_0564,Bhargavi Velip,MECHANICAL,6,3.7,87.4,7,9,58.2,9,7.3,1.2,63.0,Average,No,68.7,Pass
+GEC_DEMO_0565,Ishan Salgaonkar,ETC,4,3.2,97.0,10,12,60.6,9,8.2,0.8,54.0,Average,No,69.6,Pass
+GEC_DEMO_0566,Krish Fadte 2,ETC,7,3.3,72.8,15,15,84.4,9,7.3,0.5,43.0,Good,No,73.1,Pass
+GEC_DEMO_0567,Arya Hegde 2,VLSI,8,2.5,82.2,9,11,61.8,10,6.5,0.4,19.0,Good,No,67.7,Pass
+GEC_DEMO_0568,Riya Velip 2,E&E,4,3.8,72.1,6,8,75.8,5,7.6,4.2,42.0,Good,No,63.5,Pass
+GEC_DEMO_0569,Neha Gawas 2,E&E,5,5.4,86.0,12,13,90.4,9,5.7,0.2,8.0,Good,Yes,83.9,Pass
+GEC_DEMO_0570,Avani Kamat,VLSI,7,4.8,66.2,12,14,68.8,6,6.1,5.3,27.0,Good,No,71.0,Pass
+GEC_DEMO_0571,Tanvi Kudalkar,MECHANICAL,4,4.8,69.9,6,8,64.0,8,6.9,1.0,56.0,Average,Yes,70.6,Pass
+GEC_DEMO_0572,Kavya Naik,VLSI,4,4.3,82.3,10,12,73.9,4,7.0,5.3,21.0,Average,No,70.8,Pass
+GEC_DEMO_0573,Ananya Sawant,E&E,4,4.1,70.7,14,14,48.4,3,8.1,0.2,14.0,Good,No,59.5,Pass
+GEC_DEMO_0574,Sakshi Parab,E&E,6,3.9,85.2,13,15,60.2,5,7.2,0.1,18.0,Good,No,64.8,Pass
+GEC_DEMO_0575,Arya Patil,IT,8,2.3,73.5,8,13,71.6,3,6.9,1.7,8.0,Good,Yes,58.8,Pass
+GEC_DEMO_0576,Sahil Shetye,COMPUTER,3,2.2,58.4,9,11,43.5,6,7.7,4.1,30.0,Good,No,49.5,Pass
+GEC_DEMO_0577,Soham Desai 2,ETC,3,2.5,74.6,12,14,85.0,8,7.6,0.6,24.0,Good,Yes,71.5,Pass
+GEC_DEMO_0578,Mihir Pereira 2,COMPUTER,6,5.1,92.9,6,8,76.6,6,7.6,2.8,44.0,Good,Yes,76.1,Pass
+GEC_DEMO_0579,Siddharth Hegde,COMPUTER,3,2.9,86.0,12,12,85.3,9,7.9,2.4,52.0,Good,Yes,79.5,Pass
+GEC_DEMO_0580,Darsh Borkar 2,MECHANICAL,2,4.6,87.7,8,11,64.4,4,7.7,1.1,13.0,Good,Yes,65.9,Pass
+GEC_DEMO_0581,Parth Borkar,E&E,1,2.2,53.9,9,9,69.2,8,7.1,3.0,43.0,Good,Yes,62.0,Pass
+GEC_DEMO_0582,Arjun Kudalkar,COMPUTER,3,3.4,76.7,10,14,81.2,9,6.7,1.2,73.0,Good,No,70.1,Pass
+GEC_DEMO_0583,Ameya Parab 2,COMPUTER,5,2.4,88.0,10,12,92.2,7,6.1,1.1,29.0,Good,Yes,78.0,Pass
+GEC_DEMO_0584,Samarth Naik 2,E&E,3,4.7,79.3,9,9,80.9,8,7.7,0.5,43.0,Good,No,79.7,Pass
+GEC_DEMO_0585,Sahil Rodrigues,IT,6,6.5,90.2,5,8,76.2,7,7.2,2.2,44.0,Good,Yes,79.1,Pass
+GEC_DEMO_0586,Tanvi Rodrigues,E&E,4,2.1,87.0,7,10,90.7,4,7.8,7.3,27.0,Good,No,69.7,Pass
+GEC_DEMO_0587,Tanvi Pereira 2,COMPUTER,3,4.2,76.4,9,10,80.8,5,7.0,2.4,12.0,Good,Yes,72.3,Pass
+GEC_DEMO_0588,Siddharth Mayekar 3,CIVIL,2,2.6,91.8,10,10,45.2,8,7.5,2.5,30.0,Average,No,68.8,Pass
+GEC_DEMO_0589,Omkar Parab,IT,4,4.7,97.3,11,15,74.0,3,7.2,1.7,5.0,Good,Yes,74.0,Pass
+GEC_DEMO_0590,Mihir Rodrigues,IT,5,6.1,89.8,13,15,71.8,3,5.9,0.8,39.0,Good,Yes,75.3,Pass
+GEC_DEMO_0591,Avani Hegde,ETC,5,3.1,88.6,9,13,77.9,6,6.8,2.9,23.0,Average,No,72.5,Pass
+GEC_DEMO_0592,Arjun Shetye 3,E&E,6,5.2,69.9,9,10,77.7,3,5.4,2.6,41.0,Average,Yes,68.0,Pass
+GEC_DEMO_0593,Janhavi Salgaonkar 2,VLSI,4,3.6,83.6,12,12,67.0,4,7.2,0.5,27.0,Good,No,69.8,Pass
+GEC_DEMO_0594,Omkar D'Souza,COMPUTER,2,2.8,84.8,6,8,71.9,8,9.5,0.7,32.0,Average,Yes,69.5,Pass
+GEC_DEMO_0595,Gaurav Dessai,COMPUTER,8,3.3,72.0,8,11,58.5,8,8.0,2.2,34.0,Average,Yes,63.1,Pass
+GEC_DEMO_0596,Yash Tari,COMPUTER,7,5.4,78.6,15,15,78.7,8,8.2,1.7,20.0,Good,Yes,79.3,Pass
+GEC_DEMO_0597,Sarthak Kamat,MECHANICAL,8,4.4,75.4,7,8,70.4,6,6.9,2.1,26.0,Good,Yes,72.4,Pass
+GEC_DEMO_0598,Omkar Kudalkar 2,IT,6,3.7,94.3,14,15,69.0,5,6.5,2.8,10.0,Good,No,70.9,Pass
+GEC_DEMO_0599,Gaurav Rodrigues,VLSI,7,3.6,71.7,13,13,86.2,3,6.8,2.9,39.0,Average,No,71.0,Pass
+GEC_DEMO_0600,Advait Dessai 2,COMPUTER,8,3.0,84.1,11,13,76.9,7,7.7,1.5,50.0,Good,No,70.9,Pass
+GEC_DEMO_0601,Soham Kamat,ETC,3,4.7,81.5,8,8,79.5,4,6.3,0.5,54.0,Good,Yes,76.4,Pass
+GEC_DEMO_0602,Sakshi Pereira,MECHANICAL,7,6.8,87.4,8,8,68.9,9,9.0,0.8,15.0,Good,Yes,83.2,Pass
+GEC_DEMO_0603,Dhruv Naik,ETC,5,3.6,81.5,10,13,64.9,9,6.7,0.4,32.0,Good,Yes,68.9,Pass
+GEC_DEMO_0604,Anushka Patil,IT,8,2.4,73.0,11,12,71.7,7,6.9,0.4,47.0,Good,Yes,67.3,Pass
+GEC_DEMO_0605,Sakshi Fadte,CIVIL,8,4.3,84.5,7,9,73.6,7,8.1,3.8,32.0,Good,Yes,70.8,Pass
+GEC_DEMO_0606,Madhav Rodrigues 2,ETC,8,4.5,100.0,15,15,71.3,10,7.5,3.1,47.0,Average,No,83.9,Pass
+GEC_DEMO_0607,Riya Velip 3,CIVIL,8,5.3,86.7,10,11,72.7,10,7.8,1.7,45.0,Limited,Yes,82.1,Pass
+GEC_DEMO_0608,Parth Borkar 2,COMPUTER,8,2.1,92.5,9,14,76.3,3,5.3,2.1,37.0,Good,Yes,64.8,Pass
+GEC_DEMO_0609,Parth Joshi,E&E,6,4.2,65.8,8,10,83.5,4,6.9,1.4,30.0,Good,Yes,64.9,Pass
+GEC_DEMO_0610,Aniket Salgaonkar 3,E&E,8,2.6,100.0,11,14,57.5,8,7.0,0.8,47.0,Good,No,67.9,Pass
+GEC_DEMO_0611,Ishan Velip,CIVIL,8,5.7,94.1,8,9,59.5,7,7.1,8.0,27.0,Average,Yes,74.7,Pass
+GEC_DEMO_0612,Kiran Shetye 3,COMPUTER,8,4.9,80.9,9,11,35.3,6,8.5,3.9,23.0,Good,Yes,60.0,Pass
+GEC_DEMO_0613,Prajakta Amonkar,MECHANICAL,5,3.5,89.1,11,14,71.4,10,6.6,4.0,35.0,Good,No,76.0,Pass
+GEC_DEMO_0614,Kavya Sawant,MECHANICAL,3,2.1,99.5,14,15,55.4,6,7.3,2.8,35.0,Good,Yes,65.7,Pass
+GEC_DEMO_0615,Advait Patil,CIVIL,2,6.4,81.4,9,12,47.0,10,8.5,1.3,22.0,Good,Yes,68.4,Pass
+GEC_DEMO_0616,Sneha Shirodkar,E&E,2,3.6,70.9,4,8,68.1,8,5.4,3.1,51.0,Good,Yes,64.9,Pass
+GEC_DEMO_0617,Tanvi Gaonkar,ETC,6,5.1,90.3,9,12,58.4,8,6.0,2.2,5.0,Good,Yes,71.6,Pass
+GEC_DEMO_0618,Shreya Kamat 2,MECHANICAL,8,1.2,79.6,9,12,81.9,10,6.8,2.1,48.0,Good,No,68.2,Pass
+GEC_DEMO_0619,Bhargavi Shirodkar,IT,6,4.0,87.2,11,11,85.2,4,6.4,4.2,48.0,Average,No,75.1,Pass
+GEC_DEMO_0620,Samarth Tari 2,COMPUTER,3,4.9,78.8,9,15,77.7,5,6.2,0.8,46.0,Good,Yes,62.6,Pass
+GEC_DEMO_0621,Arya Prabhu,MECHANICAL,2,0.8,66.5,12,12,65.0,5,7.3,1.8,50.0,Average,No,57.3,Pass
+GEC_DEMO_0622,Avani Shirodkar 3,CIVIL,7,4.2,77.2,12,14,53.2,3,8.3,4.5,35.0,Average,Yes,60.2,Pass
+GEC_DEMO_0623,Bhargavi Khan,CIVIL,1,5.6,87.3,11,12,59.1,8,6.1,0.8,23.0,Good,No,76.0,Pass
+GEC_DEMO_0624,Siddharth Amonkar 2,ETC,8,1.8,70.8,9,11,58.3,9,8.0,3.5,76.0,Good,No,61.1,Pass
+GEC_DEMO_0625,Soham Fernandes,MECHANICAL,2,3.6,98.5,6,8,65.1,9,6.3,2.5,62.0,Average,No,72.7,Pass
+GEC_DEMO_0626,Sana Patil,MECHANICAL,5,3.3,61.5,9,12,66.1,4,6.7,0.9,35.0,Good,Yes,58.2,Pass
+GEC_DEMO_0627,Janhavi Naik,IT,7,2.9,73.0,8,8,90.9,5,7.9,1.6,33.0,Limited,No,73.3,Pass
+GEC_DEMO_0628,Sarthak Mayekar 2,MECHANICAL,3,2.9,84.6,9,12,79.9,5,7.6,0.8,34.0,Good,Yes,66.4,Pass
+GEC_DEMO_0629,Sneha Sawant,VLSI,1,2.6,83.9,7,8,92.6,4,7.1,1.9,36.0,Good,No,72.1,Pass
+GEC_DEMO_0630,Yash Parab,IT,6,2.7,90.0,10,12,72.8,5,7.1,0.2,71.0,Good,No,68.0,Pass
+GEC_DEMO_0631,Riya Hegde 2,IT,8,3.7,83.6,11,13,59.5,6,7.0,0.6,46.0,Good,Yes,66.7,Pass
+GEC_DEMO_0632,Tanvi Tari 2,E&E,7,3.9,98.3,8,8,62.3,3,6.1,2.4,22.0,Good,No,73.5,Pass
+GEC_DEMO_0633,Vedant Chari,CIVIL,4,2.0,77.2,10,11,69.6,9,8.1,0.8,28.0,Average,Yes,71.1,Pass
+GEC_DEMO_0634,Riya Desai 2,E&E,2,3.0,88.0,7,12,74.6,3,7.6,0.4,34.0,,No,64.0,Pass
+GEC_DEMO_0635,Ishan Patil 2,VLSI,2,3.9,75.3,6,10,83.8,6,5.6,1.5,17.0,Average,Yes,71.8,Pass
+GEC_DEMO_0636,Gaurav Desai 2,VLSI,8,5.4,93.7,10,13,63.0,3,7.9,1.0,27.0,Good,No,68.5,Pass
+GEC_DEMO_0637,Avani Pereira 2,MECHANICAL,5,5.5,80.0,11,11,65.4,3,6.0,3.4,39.0,Limited,Yes,70.2,Pass
+GEC_DEMO_0638,Tanvi Dessai,MECHANICAL,6,3.8,79.0,13,13,72.2,3,7.6,0.9,25.0,Good,No,69.0,Pass
+GEC_DEMO_0639,Parth Pereira,COMPUTER,7,4.0,81.9,9,12,85.9,7,6.0,2.7,6.0,Good,Yes,74.5,Pass
+GEC_DEMO_0640,Sahil Dessai,IT,8,1.9,72.8,7,9,64.7,4,8.7,6.2,57.0,Average,Yes,59.2,Pass
+GEC_DEMO_0641,Akash Shirodkar,CIVIL,3,3.9,78.2,8,12,76.1,9,8.1,2.0,28.0,Average,No,71.9,Pass
+GEC_DEMO_0642,Madhav Fadte,IT,3,1.2,65.9,10,11,56.8,8,7.9,3.4,47.0,Good,Yes,59.9,Pass
+GEC_DEMO_0643,Neha Mayekar,COMPUTER,5,3.3,78.9,8,9,74.9,10,7.6,1.6,20.0,Good,No,71.4,Pass
+GEC_DEMO_0644,Aarav Chari,COMPUTER,8,2.0,81.3,8,11,75.8,6,6.1,1.2,47.0,Good,Yes,67.8,Pass
+GEC_DEMO_0645,Diya Khan 2,COMPUTER,7,2.8,88.5,12,15,76.9,6,6.2,0.0,33.0,Good,Yes,71.6,Pass
+GEC_DEMO_0646,Vedant Patil,E&E,2,4.0,77.8,11,13,85.8,3,8.2,0.9,28.0,Good,No,68.2,Pass
+GEC_DEMO_0647,Anushka Dessai,VLSI,8,4.1,69.0,10,10,69.3,9,7.5,2.2,41.0,Average,Yes,70.8,Pass
+GEC_DEMO_0648,Sana Tari,IT,6,5.5,81.6,10,10,77.9,9,7.5,1.5,21.0,Good,Yes,80.1,Pass
+GEC_DEMO_0649,Bhargavi Khan 2,MECHANICAL,7,4.1,76.0,13,13,59.3,10,6.4,4.1,51.0,Good,Yes,71.9,Pass
+GEC_DEMO_0650,Neha Kamat,COMPUTER,8,3.1,72.8,11,15,55.8,10,6.7,1.9,59.0,Good,No,61.9,Pass
+GEC_DEMO_0651,Advait Rodrigues,CIVIL,1,4.7,99.4,7,13,69.3,6,6.8,5.1,27.0,Good,No,70.9,Pass
+GEC_DEMO_0652,Omkar Sawant,VLSI,5,1.5,79.6,10,12,66.9,10,7.5,2.3,23.0,Good,Yes,67.7,Pass
+GEC_DEMO_0653,Esha Gawas 2,ETC,1,6.1,100.0,7,11,90.4,7,8.1,1.3,47.0,Good,Yes,83.0,Pass
+GEC_DEMO_0654,Ananya Shirodkar 2,ETC,2,0.9,78.4,11,12,78.4,5,8.7,1.9,58.0,Good,Yes,63.3,Pass
+GEC_DEMO_0655,Ameya D'Souza,CIVIL,3,4.7,71.3,12,15,86.8,8,7.1,2.0,26.0,Average,Yes,72.3,Pass
+GEC_DEMO_0656,Sarthak Sawant 2,COMPUTER,8,4.5,79.5,6,8,74.7,5,7.3,3.6,46.0,Good,No,73.2,Pass
+GEC_DEMO_0657,Sakshi Tari,VLSI,6,3.0,73.7,9,11,80.1,4,6.5,3.7,52.0,Good,No,65.6,Pass
+GEC_DEMO_0658,Arya Joshi 2,VLSI,5,3.2,89.6,13,14,66.7,7,5.4,0.3,20.0,Average,Yes,71.4,Pass
+GEC_DEMO_0659,Yash Borkar 2,VLSI,1,1.8,76.9,10,12,78.1,9,7.6,1.1,14.0,Good,No,67.5,Pass
+GEC_DEMO_0660,Akash Amonkar,CIVIL,3,3.9,82.4,9,11,63.8,8,5.8,0.1,44.0,Good,No,69.3,Pass
+GEC_DEMO_0661,Advait D'Souza 2,ETC,1,4.5,90.2,8,11,64.0,3,6.7,2.2,58.0,Good,No,66.9,Pass
+GEC_DEMO_0662,Dev Fadte,MECHANICAL,8,3.0,81.1,6,9,41.8,8,7.2,2.6,18.0,Good,No,56.2,Pass
+GEC_DEMO_0663,Kavya Pereira,ETC,4,4.4,84.1,10,11,74.6,10,7.5,1.8,50.0,Good,Yes,79.8,Pass
+GEC_DEMO_0664,Aniket Dessai,IT,7,4.7,76.2,7,9,80.8,5,7.0,1.3,33.0,Average,Yes,71.1,Pass
+GEC_DEMO_0665,Yash Chari,VLSI,1,2.7,91.5,8,11,78.1,6,7.8,0.1,44.0,Average,No,72.2,Pass
+GEC_DEMO_0666,Sahil Khan 2,COMPUTER,8,4.9,99.1,12,13,73.2,10,7.9,3.3,55.0,Good,Yes,82.5,Pass
+GEC_DEMO_0667,Arjun Gaonkar,IT,5,4.4,80.1,7,9,64.7,5,6.6,1.0,28.0,Good,No,69.9,Pass
+GEC_DEMO_0668,Gaurav Sawant,VLSI,6,3.9,72.5,9,12,42.1,8,6.2,3.9,5.0,Good,No,61.3,Pass
+GEC_DEMO_0669,Atharva Fadte,VLSI,6,4.8,83.5,14,14,56.0,6,7.4,2.8,24.0,Good,Yes,72.1,Pass
+GEC_DEMO_0670,Aniket Parab,IT,2,4.2,99.7,11,15,68.4,8,7.3,1.1,25.0,Average,Yes,74.5,Pass
+GEC_DEMO_0671,Vedant Sawant,VLSI,4,2.8,80.3,14,15,78.4,6,7.3,3.2,46.0,Average,No,72.8,Pass
+GEC_DEMO_0672,Bhargavi Mayekar 3,CIVIL,5,2.9,97.0,8,9,84.5,6,7.5,0.6,24.0,Good,Yes,78.1,Pass
+GEC_DEMO_0673,Atharva Fadte 2,MECHANICAL,7,4.1,73.6,11,13,83.7,7,5.8,0.4,19.0,Good,No,76.0,Pass
+GEC_DEMO_0674,Dev Mayekar 2,E&E,5,5.3,80.6,13,15,62.1,4,6.8,1.2,27.0,Average,Yes,68.0,Pass
+GEC_DEMO_0675,Sneha Prabhu 3,IT,5,4.0,92.7,9,10,67.5,7,8.4,5.4,53.0,Good,Yes,75.8,Pass
+GEC_DEMO_0676,Sarthak Desai,COMPUTER,5,3.3,85.1,10,10,54.6,8,6.7,0.7,19.0,Average,Yes,70.3,Pass
+GEC_DEMO_0677,Sahil Mayekar,IT,3,3.8,77.9,6,9,47.8,3,7.5,1.8,42.0,Good,Yes,59.9,Pass
+GEC_DEMO_0678,Kavya Joshi 2,IT,1,2.2,99.9,14,14,59.8,3,6.5,0.9,13.0,Good,Yes,66.7,Pass
+GEC_DEMO_0679,Aarav Fernandes 2,COMPUTER,7,5.3,82.0,12,15,60.5,10,8.0,1.3,76.0,Good,Yes,71.7,Pass
+GEC_DEMO_0680,Chinmay Kamat 2,COMPUTER,3,5.7,83.6,7,8,59.2,5,7.2,2.4,5.0,Good,Yes,70.1,Pass
+GEC_DEMO_0681,Dhruv Velip,IT,4,6.0,79.9,9,11,79.6,9,6.4,0.6,42.0,Average,Yes,79.3,Pass
+GEC_DEMO_0682,Sakshi Fadte 2,ETC,3,5.0,73.9,10,13,87.8,3,8.4,0.8,41.0,Average,No,70.0,Pass
+GEC_DEMO_0683,Darsh Gawas,MECHANICAL,6,2.9,84.3,11,15,60.3,7,5.0,1.7,20.0,Good,No,62.4,Pass
+GEC_DEMO_0684,Soham Parab 3,E&E,1,3.6,95.3,10,12,90.3,3,6.3,1.9,25.0,Good,No,76.0,Pass
+GEC_DEMO_0685,Soham Prabhu 2,ETC,4,3.2,81.1,11,15,49.6,3,7.8,4.4,35.0,Good,Yes,57.9,Pass
+GEC_DEMO_0686,Samarth Rodrigues,MECHANICAL,4,4.4,94.8,9,10,75.1,9,6.2,2.9,33.0,Average,Yes,79.9,Pass
+GEC_DEMO_0687,Aarav Chari 2,CIVIL,5,5.6,73.7,8,13,77.0,3,6.1,1.4,26.0,Good,No,68.1,Pass
+GEC_DEMO_0688,Kiran Hegde,ETC,4,0.5,84.5,12,15,53.2,9,5.9,2.5,31.0,Limited,No,58.0,Pass
+GEC_DEMO_0689,Dhruv Prabhu 2,E&E,2,4.3,88.9,13,13,81.9,9,6.7,1.0,5.0,Average,Yes,83.8,Pass
+GEC_DEMO_0690,Dev Mayekar 3,VLSI,6,4.1,87.5,9,11,65.5,4,7.2,1.1,49.0,Average,Yes,65.6,Pass
+GEC_DEMO_0691,Akash Chari,COMPUTER,7,4.1,80.5,7,10,73.2,5,6.0,0.7,38.0,Good,Yes,66.5,Pass
+GEC_DEMO_0692,Esha Hegde,E&E,5,4.7,63.0,12,15,83.7,4,7.4,1.2,56.0,Good,No,70.9,Pass
+GEC_DEMO_0693,Kavya Hegde 2,MECHANICAL,6,2.6,80.8,8,11,78.1,7,7.5,3.9,23.0,Average,Yes,67.8,Pass
+GEC_DEMO_0694,Vedant Fernandes,ETC,4,5.0,91.3,9,10,64.6,5,7.6,0.2,,Limited,Yes,74.0,Pass
+GEC_DEMO_0695,Atharva Borkar,MECHANICAL,5,4.2,88.7,11,13,69.4,10,6.2,1.5,32.0,Limited,No,77.6,Pass
+GEC_DEMO_0696,Chinmay Khan 2,CIVIL,2,3.5,81.3,6,8,90.9,3,7.4,3.3,31.0,Good,Yes,69.0,Pass
+GEC_DEMO_0697,Zoya Naik,MECHANICAL,5,3.8,96.0,9,10,49.3,10,6.3,1.9,49.0,Limited,No,72.1,Pass
+GEC_DEMO_0698,Diya Mayekar 2,ETC,2,3.2,71.6,11,13,81.4,5,7.0,0.6,44.0,Good,No,71.2,Pass
+GEC_DEMO_0699,Sneha Khan,MECHANICAL,7,3.9,86.5,7,9,81.5,10,7.3,1.8,29.0,Good,No,76.0,Pass
+GEC_DEMO_0700,Janhavi Patil,MECHANICAL,3,4.6,99.0,8,10,92.7,3,8.5,3.7,33.0,Average,Yes,78.0,Pass
+GEC_DEMO_0701,Rohan Naik,IT,2,2.0,98.2,6,8,86.1,5,8.0,2.2,38.0,Good,Yes,70.1,Pass
+GEC_DEMO_0702,Shreya Shetye 3,COMPUTER,2,3.3,100.0,8,12,51.7,5,7.7,0.5,55.0,Good,No,64.4,Pass
+GEC_DEMO_0703,Yash Borkar 3,VLSI,1,3.1,69.9,7,8,77.2,10,8.3,0.3,34.0,Average,Yes,72.2,Pass
+GEC_DEMO_0704,Avani Sawant,ETC,3,3.7,78.3,7,9,74.5,4,6.4,1.9,32.0,Limited,Yes,67.2,Pass
+GEC_DEMO_0705,Ananya Amonkar 2,IT,2,3.4,83.9,7,10,80.3,5,6.5,3.2,33.0,Average,Yes,69.3,Pass
+GEC_DEMO_0706,Prajakta Borkar,IT,4,1.4,90.5,13,14,92.0,10,7.1,2.2,33.0,Average,No,74.9,Pass
+GEC_DEMO_0707,Parth Rodrigues 2,IT,1,4.4,70.4,6,9,74.3,4,8.0,4.0,62.0,Good,Yes,64.8,Pass
+GEC_DEMO_0708,Darsh Kamat,E&E,2,5.4,85.3,8,11,67.7,4,7.6,2.9,47.0,Good,No,70.4,Pass
+GEC_DEMO_0709,Aniket Prabhu,ETC,8,2.8,74.0,7,10,67.6,8,7.3,5.3,26.0,Good,Yes,62.0,Pass
+GEC_DEMO_0710,Tanvi Amonkar,IT,3,4.0,81.3,12,12,83.2,5,8.3,2.4,5.0,Good,Yes,72.8,Pass
+GEC_DEMO_0711,Ishan Amonkar,COMPUTER,8,2.8,66.2,8,10,57.5,10,7.5,2.9,73.0,Good,Yes,61.7,Pass
+GEC_DEMO_0712,Chinmay Parab 2,VLSI,7,4.0,88.6,12,14,78.1,7,7.2,0.6,22.0,Good,Yes,76.2,Pass
+GEC_DEMO_0713,Arjun D'Souza,COMPUTER,1,3.5,63.1,8,10,74.5,9,6.8,0.5,35.0,Average,No,69.0,Pass
+GEC_DEMO_0714,Sahil Parab 2,VLSI,3,5.2,86.2,10,15,48.4,7,7.8,2.6,33.0,Average,Yes,63.6,Pass
+GEC_DEMO_0715,Zoya Dessai,COMPUTER,1,3.0,69.7,13,15,76.0,6,6.3,0.7,45.0,Good,No,66.5,Pass
+GEC_DEMO_0716,Arya Dessai,ETC,4,4.6,74.2,7,8,56.8,7,7.6,8.0,41.0,Good,No,67.6,Pass
+GEC_DEMO_0717,Riya Salgaonkar,MECHANICAL,4,2.8,88.2,15,15,94.1,7,7.7,3.0,29.0,Good,No,79.6,Pass
+GEC_DEMO_0718,Avani Salgaonkar,E&E,7,3.0,85.3,7,9,59.0,6,7.3,4.5,57.0,Good,Yes,66.4,Pass
+GEC_DEMO_0719,Anushka Desai,MECHANICAL,3,3.9,69.7,10,11,81.8,7,8.1,2.1,21.0,Average,Yes,70.5,Pass
+GEC_DEMO_0720,Diya Kudalkar,COMPUTER,7,1.6,58.1,14,15,67.1,5,8.6,0.6,59.0,Good,No,56.5,Pass
+GEC_DEMO_0721,Sai Naik,CIVIL,5,2.6,84.1,8,10,57.5,7,6.4,4.7,48.0,Average,No,62.7,Pass
+GEC_DEMO_0722,Advait Sawant,E&E,6,4.9,84.2,12,12,75.4,4,7.6,2.7,58.0,Average,Yes,74.0,Pass
+GEC_DEMO_0723,Akash Joshi,VLSI,3,2.8,67.0,11,11,54.3,8,6.5,1.8,58.0,Average,Yes,60.0,Pass
+GEC_DEMO_0724,Atharva Shirodkar,VLSI,5,2.0,100.0,13,13,67.6,7,7.4,,40.0,Good,Yes,74.8,Pass
+GEC_DEMO_0725,Rohan Dessai,MECHANICAL,1,1.8,90.9,9,14,87.1,7,6.8,1.0,59.0,Good,Yes,72.8,Pass
+GEC_DEMO_0726,Arya Joshi 3,MECHANICAL,1,3.9,67.2,9,12,66.0,8,6.7,0.9,26.0,Average,Yes,63.9,Pass
+GEC_DEMO_0727,Vedant Joshi,VLSI,6,3.0,91.1,12,13,96.8,3,6.9,1.1,57.0,Average,Yes,76.7,Pass
+GEC_DEMO_0728,Atharva Desai,MECHANICAL,7,3.8,68.5,8,10,82.9,4,7.6,0.3,30.0,Good,No,67.3,Pass
+GEC_DEMO_0729,Neha Shirodkar,E&E,1,0.5,97.8,7,11,51.8,5,7.3,2.9,47.0,Good,No,57.8,Pass
+GEC_DEMO_0730,Akash Gawas,ETC,6,2.7,99.1,11,13,96.6,10,7.0,2.1,50.0,Average,No,84.8,Pass
+GEC_DEMO_0731,Aditi Rodrigues 4,ETC,1,2.7,99.9,9,9,90.6,10,8.1,4.6,44.0,Limited,Yes,84.8,Pass
+GEC_DEMO_0732,Zoya Gawas 2,E&E,8,4.8,69.4,13,13,46.5,10,8.1,3.4,68.0,Good,Yes,70.5,Pass
+GEC_DEMO_0733,Advait Fadte 2,E&E,1,4.9,78.6,8,9,66.5,6,7.3,2.3,46.0,Good,No,71.4,Pass
+GEC_DEMO_0734,Omkar Joshi 2,COMPUTER,2,4.6,69.2,11,13,92.3,3,5.9,2.7,5.0,Good,No,71.2,Pass
+GEC_DEMO_0735,Yash Gaonkar,COMPUTER,7,1.0,72.3,8,10,69.1,8,5.2,3.2,8.0,Average,Yes,58.7,Pass
+GEC_DEMO_0736,Ameya Kudalkar,ETC,1,4.9,100.0,9,11,70.6,6,6.9,2.9,23.0,Average,No,74.0,Pass
+GEC_DEMO_0737,Dev Sawant 2,IT,2,5.3,83.5,11,14,59.2,10,7.6,4.2,14.0,Limited,No,73.8,Pass
+GEC_DEMO_0738,Janhavi Gaonkar,E&E,8,2.7,79.7,8,10,70.6,10,6.3,1.0,8.0,Good,Yes,68.4,Pass
+GEC_DEMO_0739,Zoya Sawant,VLSI,1,4.1,80.3,12,14,76.4,10,8.1,2.0,34.0,Limited,Yes,76.7,Pass
+GEC_DEMO_0740,Nikhil Joshi,IT,3,4.3,73.7,13,13,93.2,6,6.4,2.1,38.0,Average,Yes,79.6,Pass
+GEC_DEMO_0741,Madhav Hegde 2,CIVIL,7,3.2,76.6,8,9,62.0,6,8.2,1.1,37.0,Average,No,62.8,Pass
+GEC_DEMO_0742,Dhruv Tari,IT,8,3.9,87.4,11,13,71.9,9,8.2,1.4,54.0,Good,Yes,76.7,Pass
+GEC_DEMO_0743,Ameya Shirodkar 2,MECHANICAL,2,2.6,79.0,14,14,90.8,9,7.8,1.4,35.0,Good,Yes,75.3,Pass
+GEC_DEMO_0744,Omkar Tari,COMPUTER,7,3.9,78.3,15,15,77.1,4,6.5,0.8,29.0,Good,Yes,72.0,Pass
+GEC_DEMO_0745,Sneha Joshi 2,E&E,8,3.6,80.2,13,13,55.0,6,8.4,2.6,19.0,Good,No,66.8,Pass
+GEC_DEMO_0746,Gaurav Shirodkar,ETC,2,4.1,83.1,6,9,80.5,5,7.0,1.7,33.0,Good,No,68.7,Pass
+GEC_DEMO_0747,Sneha Shetye 2,CIVIL,5,6.3,80.4,15,15,75.1,8,7.0,3.1,31.0,Good,No,83.0,Pass
+GEC_DEMO_0748,Advait Chari,COMPUTER,6,2.3,77.1,12,13,49.8,8,7.2,4.2,33.0,Good,Yes,60.8,Pass
+GEC_DEMO_0749,Omkar Kudalkar 3,ETC,3,5.3,77.8,7,10,87.4,5,6.0,1.8,27.0,Good,Yes,76.4,Pass
+GEC_DEMO_0750,Mihir Salgaonkar,CIVIL,3,3.9,86.7,8,10,53.9,5,7.7,4.1,18.0,Good,Yes,66.4,Pass
+GEC_DEMO_0751,Omkar Shetye 2,MECHANICAL,3,3.8,78.6,5,10,85.0,9,8.1,1.3,45.0,Average,Yes,69.9,Pass
+GEC_DEMO_0752,Akash Shirodkar 2,COMPUTER,7,0.9,80.0,8,11,73.3,6,7.9,0.5,30.0,Good,Yes,61.1,Pass
+GEC_DEMO_0753,Nikhil Mayekar,CIVIL,1,5.1,75.3,7,8,78.6,5,6.9,1.9,26.0,Average,No,73.7,Pass
+GEC_DEMO_0754,Omkar Fernandes 3,COMPUTER,6,2.2,81.2,9,10,55.4,4,6.6,1.1,26.0,Good,Yes,59.4,Pass
+GEC_DEMO_0755,Sarthak Dessai,COMPUTER,5,2.5,87.4,8,10,61.2,5,6.7,3.2,5.0,Good,Yes,65.1,Pass
+GEC_DEMO_0756,Darsh Desai 2,COMPUTER,6,3.4,63.8,13,15,71.7,3,8.3,0.9,21.0,Good,Yes,60.1,Pass
+GEC_DEMO_0757,Zoya Dessai 2,MECHANICAL,6,3.3,84.0,9,12,62.9,4,8.0,1.6,44.0,Good,Yes,61.2,Pass
+GEC_DEMO_0758,Neha Borkar,CIVIL,3,2.6,88.5,9,10,56.9,8,7.0,1.1,37.0,Good,No,67.4,Pass
+GEC_DEMO_0759,Atharva Fadte 3,CIVIL,4,5.7,82.3,7,9,64.5,9,6.7,1.0,47.0,Average,Yes,71.6,Pass
+GEC_DEMO_0760,Kavya Sawant 2,MECHANICAL,1,4.7,75.8,9,10,58.9,6,6.1,1.4,59.0,Good,Yes,68.7,Pass
+GEC_DEMO_0761,Neha Parab 4,CIVIL,4,7.0,91.7,10,11,71.5,9,6.9,3.7,5.0,Good,Yes,82.8,Pass
+GEC_DEMO_0762,Sakshi Sawant,VLSI,4,2.8,91.8,10,11,60.3,4,6.7,2.0,26.0,Average,Yes,64.7,Pass
+GEC_DEMO_0763,Arjun Mayekar,ETC,7,2.7,73.0,7,9,30.7,5,8.2,0.9,32.0,Good,Yes,51.1,Pass
+GEC_DEMO_0764,Sahil Patil 2,E&E,6,6.4,86.6,6,10,91.5,10,5.8,4.6,42.0,Limited,No,86.6,Pass
+GEC_DEMO_0765,Avani Fadte,VLSI,3,2.1,84.3,13,15,70.3,5,7.1,1.1,37.0,Good,Yes,68.4,Pass
+GEC_DEMO_0766,Darsh Desai 3,ETC,8,4.2,61.5,8,13,77.7,3,8.4,1.9,44.0,Good,Yes,61.1,Pass
+GEC_DEMO_0767,Yash Joshi 3,COMPUTER,5,3.4,85.4,9,10,44.9,7,7.2,,27.0,Good,Yes,65.5,Pass
+GEC_DEMO_0768,Yash Shirodkar 2,VLSI,3,3.4,67.9,15,15,55.8,9,6.9,1.0,25.0,Good,Yes,65.1,Pass
+GEC_DEMO_0769,Yash Chari 2,COMPUTER,6,1.9,82.3,9,9,70.2,9,5.7,0.1,56.0,Average,No,68.5,Pass
+GEC_DEMO_0770,Sneha Rane 2,E&E,4,2.9,67.1,14,14,97.4,6,7.9,2.8,58.0,Average,Yes,76.8,Pass
+GEC_DEMO_0771,Sana Shetye,VLSI,8,6.4,87.2,13,13,75.0,6,,0.5,55.0,Good,No,80.9,Pass
+GEC_DEMO_0772,Vedant Tari,MECHANICAL,8,4.0,100.0,11,15,64.5,10,6.5,7.6,67.0,Good,Yes,76.9,Pass
+GEC_DEMO_0773,Omkar Gaonkar,E&E,1,5.8,75.7,7,11,72.2,8,7.8,4.3,27.0,Average,No,72.8,Pass
+GEC_DEMO_0774,Dhruv Dessai 2,ETC,3,2.9,72.5,5,9,51.8,9,7.1,7.0,52.0,Good,No,58.3,Pass
+GEC_DEMO_0775,Yash Tari 2,IT,4,4.0,65.8,9,11,56.4,10,6.0,0.7,33.0,Good,Yes,64.3,Pass
+GEC_DEMO_0776,Ananya Rodrigues,E&E,6,4.7,71.6,10,11,80.1,3,7.5,5.1,32.0,Good,Yes,71.7,Pass
+GEC_DEMO_0777,Nikhil Kamat,MECHANICAL,5,4.7,92.4,12,14,70.7,3,7.9,2.4,81.0,Average,Yes,68.7,Pass
+GEC_DEMO_0778,Kavya Hegde 3,E&E,8,3.6,82.4,7,9,72.5,10,6.6,1.0,7.0,Good,Yes,75.0,Pass
+GEC_DEMO_0779,Arjun Joshi,MECHANICAL,2,3.9,64.6,14,15,85.0,9,8.6,1.5,38.0,Good,Yes,75.3,Pass
+GEC_DEMO_0780,Janhavi Patil 2,VLSI,6,5.3,79.5,12,14,72.5,5,6.2,0.5,41.0,Good,No,74.8,Pass
+GEC_DEMO_0781,Tanvi Naik,E&E,8,4.2,78.1,8,13,50.6,4,8.8,0.8,52.0,Good,Yes,56.7,Pass
+GEC_DEMO_0782,Esha Borkar,MECHANICAL,1,1.4,88.0,6,10,90.3,3,6.8,1.8,51.0,Good,Yes,64.4,Pass
+GEC_DEMO_0783,Chinmay Khan 3,CIVIL,6,3.0,77.0,10,10,78.4,6,8.8,5.0,18.0,Good,Yes,72.2,Pass
+GEC_DEMO_0784,Atharva Desai 2,ETC,6,2.3,86.0,8,9,83.2,4,7.3,4.0,44.0,Good,Yes,70.7,Pass
+GEC_DEMO_0785,Rohan Rane,IT,1,1.5,80.9,6,9,63.1,4,7.0,2.5,38.0,Good,Yes,55.1,Pass
+GEC_DEMO_0786,Advait Amonkar,MECHANICAL,1,4.9,64.9,11,11,76.0,6,6.4,6.2,66.0,Good,No,68.6,Pass
+GEC_DEMO_0787,Yash Velip,CIVIL,1,5.3,71.5,9,12,89.7,4,6.8,1.6,49.0,Good,Yes,74.5,Pass
+GEC_DEMO_0788,Mihir Prabhu,VLSI,3,2.8,95.1,14,14,62.4,8,6.0,1.6,46.0,Good,No,73.9,Pass
+GEC_DEMO_0789,Advait Rane,COMPUTER,6,3.4,85.6,10,13,80.5,6,6.6,1.0,32.0,Good,Yes,74.3,Pass
+GEC_DEMO_0790,Avani Hegde 2,ETC,8,6.5,83.9,8,8,88.0,6,8.1,2.6,46.0,,Yes,86.1,Pass
+GEC_DEMO_0791,Kiran Desai 3,COMPUTER,6,3.6,81.8,14,15,93.7,3,6.5,3.8,23.0,Average,Yes,73.4,Pass
+GEC_DEMO_0792,Arya Prabhu 2,ETC,6,3.7,65.5,8,10,55.2,6,8.2,0.2,38.0,Good,No,61.7,Pass
+GEC_DEMO_0793,Yash Chari 3,ETC,4,4.2,79.2,7,9,56.6,9,7.0,0.3,60.0,Average,No,65.1,Pass
+GEC_DEMO_0794,Madhav Fadte 2,COMPUTER,2,5.6,86.3,10,10,60.1,4,7.2,3.2,18.0,Good,Yes,75.0,Pass
+GEC_DEMO_0795,Esha Shirodkar,VLSI,5,4.5,89.4,7,8,70.0,7,7.2,1.6,17.0,Good,No,71.3,Pass
+GEC_DEMO_0796,Sana Kamat,MECHANICAL,6,5.3,92.5,6,9,68.5,10,6.5,0.3,23.0,Good,No,75.6,Pass
+GEC_DEMO_0797,Kavya Khan,IT,7,2.5,85.9,6,9,71.7,3,7.9,4.6,37.0,Good,Yes,59.8,Pass
+GEC_DEMO_0798,Avani Mayekar,MECHANICAL,5,5.0,88.0,8,10,76.0,6,6.8,2.3,25.0,Good,Yes,75.1,Pass
+GEC_DEMO_0799,Avani Khan,COMPUTER,8,3.7,76.5,10,13,60.3,8,6.6,2.2,44.0,Good,Yes,66.8,Pass
+GEC_DEMO_0800,Dhruv Naik 2,IT,7,2.7,96.4,7,11,77.3,5,8.2,3.5,44.0,Average,No,65.6,Pass
+GEC_DEMO_0801,Janhavi Kudalkar,MECHANICAL,8,4.6,72.5,13,13,56.3,4,6.7,1.8,35.0,Good,No,66.3,Pass
+GEC_DEMO_0802,Kavya Joshi 3,MECHANICAL,6,7.2,85.6,10,15,67.7,7,6.2,1.6,33.0,Good,No,74.0,Pass
+GEC_DEMO_0803,Esha Shetye,MECHANICAL,2,4.1,79.6,10,15,52.0,8,6.7,2.5,23.0,Average,No,62.6,Pass
+GEC_DEMO_0804,Esha Hegde 2,IT,7,5.2,94.9,8,14,90.8,7,7.7,1.3,41.0,Good,Yes,81.8,Pass
+GEC_DEMO_0805,Kavya Borkar,COMPUTER,6,3.5,80.9,10,13,37.0,5,6.8,1.9,24.0,Good,Yes,56.1,Pass
+GEC_DEMO_0806,Bhargavi Kudalkar 2,ETC,6,1.7,89.7,9,12,62.9,5,7.3,0.8,37.0,Good,No,62.3,Pass
+GEC_DEMO_0807,Kavya Chari,MECHANICAL,3,4.6,75.2,7,8,51.2,7,7.7,2.6,34.0,Average,No,66.3,Pass
+GEC_DEMO_0808,Shreya Kudalkar 2,CIVIL,1,2.5,94.3,11,15,77.0,4,7.9,3.8,19.0,Good,Yes,70.5,Pass
+GEC_DEMO_0809,Atharva Prabhu 2,CIVIL,8,3.5,92.0,9,11,78.4,4,8.4,3.0,21.0,Good,Yes,72.3,Pass
+GEC_DEMO_0810,Kiran Borkar 2,VLSI,4,6.5,98.1,10,12,67.4,7,8.1,1.6,,Average,No,81.4,Pass
+GEC_DEMO_0811,Anushka Mayekar,IT,5,1.4,79.5,9,11,56.3,9,7.4,1.5,57.0,Average,Yes,60.9,Pass
+GEC_DEMO_0812,Neha Pereira,CIVIL,1,4.3,91.6,8,11,51.4,7,6.6,2.8,46.0,Good,No,64.0,Pass
+GEC_DEMO_0813,Advait Rodrigues 2,VLSI,7,4.5,89.6,10,14,59.9,4,7.0,1.8,28.0,Average,Yes,64.6,Pass
+GEC_DEMO_0814,Nikhil D'Souza,IT,3,4.3,94.1,12,14,70.4,10,6.2,1.9,44.0,Good,Yes,77.8,Pass
+GEC_DEMO_0815,Chinmay Hegde,COMPUTER,1,3.0,90.0,9,9,85.6,5,6.7,2.7,49.0,Average,Yes,78.2,Pass
+GEC_DEMO_0816,Riya Tari 2,COMPUTER,3,4.1,84.5,15,15,76.0,4,7.8,2.5,39.0,Good,Yes,72.3,Pass
+GEC_DEMO_0817,Riya D'Souza 2,MECHANICAL,2,2.5,94.3,10,14,84.3,8,7.3,1.4,21.0,Good,Yes,70.5,Pass
+GEC_DEMO_0818,Atharva Pereira,MECHANICAL,4,5.9,55.7,8,12,69.4,5,6.7,5.5,32.0,Average,Yes,67.3,Pass
+GEC_DEMO_0819,Nikhil Naik 2,IT,6,4.0,79.4,6,8,68.6,8,7.3,0.5,44.0,Good,Yes,70.9,Pass
+GEC_DEMO_0820,Kiran Salgaonkar 3,VLSI,3,5.6,74.1,8,9,75.1,7,6.4,1.2,25.0,Good,Yes,75.3,Pass
+GEC_DEMO_0821,Arya Rane,COMPUTER,2,3.4,94.2,12,14,73.8,3,7.9,3.2,52.0,Limited,Yes,67.6,Pass
+GEC_DEMO_0822,Tanvi Sawant 2,MECHANICAL,2,5.0,80.8,9,12,61.8,7,7.1,1.8,7.0,Average,Yes,66.8,Pass
+GEC_DEMO_0823,Soham Dessai,COMPUTER,2,4.8,90.2,9,10,78.8,7,8.6,1.5,12.0,Good,Yes,77.3,Pass
+GEC_DEMO_0824,Esha Gaonkar 2,MECHANICAL,7,2.3,84.2,5,8,74.5,6,6.2,6.5,47.0,Good,Yes,65.7,Pass
+GEC_DEMO_0825,Sarthak Desai 2,COMPUTER,5,6.0,93.7,6,8,62.9,6,6.4,0.4,24.0,Average,Yes,74.9,Pass
+GEC_DEMO_0826,Kiran Rodrigues 2,E&E,1,7.5,91.1,11,15,77.5,10,6.7,1.1,29.0,Average,Yes,86.2,Pass
+GEC_DEMO_0827,Neha Sawant,IT,4,5.3,82.8,10,15,63.8,3,7.3,0.9,5.0,Average,No,68.2,Pass
+GEC_DEMO_0828,Aniket Hegde,E&E,4,2.0,87.9,7,11,68.0,3,7.1,2.6,41.0,Good,Yes,61.5,Pass
+GEC_DEMO_0829,Neha Gaonkar,CIVIL,6,2.7,82.9,9,12,64.7,3,7.0,2.3,45.0,Good,No,63.6,Pass
+GEC_DEMO_0830,Anushka Parab,IT,6,0.8,78.4,9,13,70.8,5,8.0,2.0,70.0,Good,Yes,60.0,Pass
+GEC_DEMO_0831,Arya Salgaonkar,VLSI,6,2.7,87.9,5,8,80.6,6,7.6,2.1,8.0,Good,Yes,68.3,Pass
+GEC_DEMO_0832,Anushka Chari,ETC,2,6.2,98.5,6,10,54.5,8,6.0,1.0,26.0,Average,Yes,74.5,Pass
+GEC_DEMO_0833,Riya Khan,IT,1,5.2,91.5,8,11,75.5,3,7.1,3.3,67.0,Average,Yes,73.7,Pass
+GEC_DEMO_0834,Riya Joshi,COMPUTER,4,2.5,75.0,10,11,67.4,4,5.9,2.6,37.0,Good,Yes,64.9,Pass
+GEC_DEMO_0835,Arjun Tari,COMPUTER,3,2.1,91.4,6,9,61.5,8,8.5,3.9,37.0,Average,No,63.8,Pass
+GEC_DEMO_0836,Janhavi Shetye 2,COMPUTER,3,3.0,74.8,13,15,55.4,10,6.5,1.0,45.0,Average,Yes,63.9,Pass
+GEC_DEMO_0837,Esha Rodrigues,CIVIL,8,5.3,52.8,12,15,78.4,9,7.5,2.0,29.0,Average,Yes,74.3,Pass
+GEC_DEMO_0838,Nikhil Naik 3,COMPUTER,7,4.5,73.2,12,14,66.0,5,6.8,0.7,36.0,Good,Yes,68.4,Pass
+GEC_DEMO_0839,Anushka Fernandes,E&E,7,5.9,84.3,8,14,73.4,10,6.8,3.3,33.0,Average,Yes,74.2,Pass
+GEC_DEMO_0840,Soham Prabhu 3,E&E,1,3.0,68.1,8,12,74.3,3,5.8,0.9,58.0,Good,No,56.7,Pass
+GEC_DEMO_0841,Aniket Gaonkar 2,E&E,2,4.0,84.6,7,8,88.9,7,6.9,1.6,33.0,Good,No,77.3,Pass
+GEC_DEMO_0842,Yash Shetye 2,ETC,1,2.9,94.4,15,15,88.4,4,7.0,,41.0,Good,Yes,77.2,Pass
+GEC_DEMO_0843,Sahil Gaonkar,COMPUTER,3,3.6,81.9,7,10,81.6,8,7.4,5.8,37.0,Good,No,70.6,Pass
+GEC_DEMO_0844,Kavya Chari 2,COMPUTER,4,3.4,87.0,7,11,82.3,9,8.1,0.4,29.0,Average,No,74.8,Pass
+GEC_DEMO_0845,Yash Hegde,MECHANICAL,3,3.4,79.8,9,11,97.4,3,8.3,0.6,23.0,Good,No,73.2,Pass
+GEC_DEMO_0846,Tanvi Desai,CIVIL,6,4.6,58.9,13,13,75.8,10,9.2,2.3,39.0,Good,Yes,72.6,Pass
+GEC_DEMO_0847,Ishan Velip 2,ETC,1,3.2,85.1,13,15,79.1,7,5.6,5.0,39.0,Good,Yes,71.4,Pass
+GEC_DEMO_0848,Zoya Naik 2,IT,7,3.6,75.1,9,12,78.0,10,8.8,3.8,41.0,Good,Yes,73.3,Pass
+GEC_DEMO_0849,Gaurav Kamat 2,CIVIL,1,2.6,85.5,6,8,63.2,3,7.5,0.9,54.0,Good,Yes,59.4,Pass
+GEC_DEMO_0850,Tanvi Dessai 2,COMPUTER,5,5.5,62.9,11,12,71.8,9,7.6,1.3,31.0,Good,No,72.3,Pass
+GEC_DEMO_0851,Atharva Fadte 4,E&E,5,6.2,84.4,13,13,72.8,5,6.9,3.1,42.0,Limited,Yes,78.5,Pass
+GEC_DEMO_0852,Ananya Naik 3,VLSI,8,6.5,87.9,10,10,73.4,7,7.1,0.3,40.0,Average,Yes,81.6,Pass
+GEC_DEMO_0853,Kavya D'Souza,ETC,1,4.9,96.5,11,12,73.5,4,7.7,5.0,22.0,Good,No,72.7,Pass
+GEC_DEMO_0854,Aarav Salgaonkar,IT,6,3.8,84.8,7,8,70.2,6,7.5,2.2,62.0,Good,Yes,72.4,Pass
+GEC_DEMO_0855,Darsh Mayekar,IT,7,2.6,69.4,12,15,79.8,5,6.4,2.6,52.0,Good,No,65.2,Pass
+GEC_DEMO_0856,Soham Tari 3,E&E,8,2.4,83.0,8,9,57.2,4,6.5,6.2,23.0,Good,Yes,63.7,Pass
+GEC_DEMO_0857,Rohan Joshi,CIVIL,7,3.7,63.2,12,15,76.5,4,6.4,2.0,36.0,Limited,No,63.5,Pass
+GEC_DEMO_0858,Kavya Rane 3,MECHANICAL,7,2.2,63.6,6,11,62.1,6,6.7,1.7,15.0,Average,Yes,53.4,Pass
+GEC_DEMO_0859,Sana Salgaonkar,IT,1,4.9,85.2,5,10,46.0,3,6.1,3.4,34.0,Good,Yes,53.9,Pass
+GEC_DEMO_0860,Madhav Rodrigues 3,IT,8,4.2,88.3,8,9,53.0,6,6.4,1.1,32.0,Good,Yes,65.4,Pass
+GEC_DEMO_0861,Sakshi Naik,E&E,3,2.0,84.9,11,14,70.2,3,8.0,0.2,48.0,Limited,Yes,62.8,Pass
+GEC_DEMO_0862,Zoya Salgaonkar,E&E,1,3.6,94.7,10,14,79.2,3,7.7,1.9,14.0,Good,No,67.2,Pass
+GEC_DEMO_0863,Vedant Shetye 2,COMPUTER,1,5.0,90.8,11,13,64.7,6,6.8,2.7,19.0,Average,No,71.2,Pass
+GEC_DEMO_0864,Omkar Hegde,E&E,8,5.4,88.5,13,15,69.5,4,6.5,0.5,19.0,Good,Yes,74.7,Pass
+GEC_DEMO_0865,Janhavi Kudalkar 2,MECHANICAL,4,4.1,66.3,10,14,76.6,6,5.9,5.4,16.0,Good,No,66.7,Pass
+GEC_DEMO_0866,Janhavi Hegde 2,COMPUTER,6,4.7,75.7,7,11,66.6,10,7.0,1.2,27.0,Good,Yes,71.4,Pass
+GEC_DEMO_0867,Avani Parab,MECHANICAL,5,4.3,84.4,9,10,77.9,7,5.6,4.8,43.0,Good,No,76.0,Pass
+GEC_DEMO_0868,Neha Gaonkar 2,COMPUTER,2,3.3,68.2,10,14,88.0,5,7.6,3.3,48.0,Good,No,68.1,Pass
+GEC_DEMO_0869,Omkar Chari,COMPUTER,8,4.1,70.4,7,8,84.7,6,7.1,0.4,24.0,Average,No,73.4,Pass
+GEC_DEMO_0870,Diya Shirodkar,ETC,1,4.0,67.3,11,14,62.0,3,6.4,1.6,39.0,Good,Yes,61.0,Pass
+GEC_DEMO_0871,Arya Pereira,MECHANICAL,1,3.1,75.9,11,14,58.1,6,5.9,2.5,37.0,Good,Yes,62.3,Pass
+GEC_DEMO_0872,Aarav Kamat 2,E&E,1,4.2,84.4,9,12,94.1,3,6.4,0.8,17.0,Good,Yes,73.2,Pass
+GEC_DEMO_0873,Ameya Kudalkar 2,E&E,4,3.8,94.5,10,12,85.3,9,7.9,5.4,54.0,Good,Yes,79.7,Pass
+GEC_DEMO_0874,Avani Khan 2,COMPUTER,4,4.4,83.0,12,15,88.5,8,7.7,1.2,14.0,Good,Yes,79.9,Pass
+GEC_DEMO_0875,Janhavi Amonkar,E&E,7,3.9,79.1,6,9,74.9,10,7.2,1.7,57.0,Good,Yes,73.3,Pass
+GEC_DEMO_0876,Shreya Prabhu 2,ETC,1,3.9,72.1,12,15,64.2,4,7.4,0.6,14.0,Good,No,63.1,Pass
+GEC_DEMO_0877,Aniket Shirodkar,COMPUTER,8,1.4,95.7,10,11,79.8,5,7.3,2.1,46.0,Good,Yes,68.3,Pass
+GEC_DEMO_0878,Prajakta Salgaonkar,MECHANICAL,4,7.0,85.1,8,8,58.4,7,7.7,1.3,20.0,Good,Yes,78.1,Pass
+GEC_DEMO_0879,Sana Fernandes,COMPUTER,8,4.8,89.8,15,15,68.2,7,6.0,1.6,33.0,Good,No,76.6,Pass
+GEC_DEMO_0880,Ishan Rane,ETC,2,4.5,72.2,6,12,77.9,10,7.2,2.8,32.0,Good,Yes,67.9,Pass
+GEC_DEMO_0881,Sahil Joshi,ETC,3,6.3,70.1,10,11,74.0,3,6.9,3.5,28.0,Good,No,71.9,Pass
+GEC_DEMO_0882,Sahil Khan 3,MECHANICAL,1,5.2,85.1,12,15,61.6,9,7.4,2.6,47.0,Average,Yes,68.9,Pass
+GEC_DEMO_0883,Kiran Shetye 4,CIVIL,4,4.5,83.7,10,15,77.8,7,6.7,1.8,44.0,Good,No,71.7,Pass
+GEC_DEMO_0884,Atharva Salgaonkar,MECHANICAL,1,4.8,94.8,10,13,68.2,8,6.9,1.7,58.0,Limited,Yes,71.7,Pass
+GEC_DEMO_0885,Prajakta Kudalkar 2,COMPUTER,4,6.1,76.0,9,9,79.8,5,7.3,0.6,23.0,Good,No,78.6,Pass
+GEC_DEMO_0886,Ishan Khan 2,COMPUTER,1,4.2,80.1,8,9,68.1,10,7.7,1.9,5.0,Good,No,73.2,Pass
+GEC_DEMO_0887,Rohan Fadte 2,ETC,4,2.1,77.3,11,14,70.2,10,6.5,1.1,53.0,Good,No,65.1,Pass
+GEC_DEMO_0888,Sarthak Desai 3,IT,8,1.9,93.0,9,13,59.3,4,7.5,1.1,35.0,Average,No,60.8,Pass
+GEC_DEMO_0889,Parth Shetye,MECHANICAL,1,5.7,74.5,9,11,93.6,6,7.0,3.6,35.0,Good,Yes,81.0,Pass
+GEC_DEMO_0890,Arjun Shirodkar,ETC,6,3.6,90.3,9,11,90.1,5,6.4,6.7,54.0,Good,No,73.2,Pass
+GEC_DEMO_0891,Soham Amonkar 3,ETC,5,4.6,82.0,6,9,61.4,3,7.3,0.9,40.0,Average,Yes,63.7,Pass
+GEC_DEMO_0892,Ameya Shetye 2,E&E,6,3.8,88.1,6,10,65.8,8,6.6,0.5,21.0,Good,No,66.5,Pass
+GEC_DEMO_0893,Sakshi Hegde,IT,2,4.5,96.1,10,14,86.0,5,6.3,1.5,48.0,Good,Yes,74.3,Pass
+GEC_DEMO_0894,Madhav Prabhu,CIVIL,8,2.7,87.7,12,14,57.7,9,8.4,2.1,53.0,Good,No,66.7,Pass
+GEC_DEMO_0895,Shreya Rane,MECHANICAL,6,4.5,100.0,7,13,83.5,5,7.4,1.7,16.0,Good,No,72.8,Pass
+GEC_DEMO_0896,Tanvi Parab 2,MECHANICAL,5,0.8,86.0,6,9,81.3,7,6.4,5.7,35.0,Average,No,66.9,Pass
+GEC_DEMO_0897,Janhavi Parab,VLSI,2,3.5,64.2,15,15,66.2,3,7.8,1.4,19.0,Good,Yes,63.6,Pass
+GEC_DEMO_0898,Akash D'Souza,MECHANICAL,8,2.1,86.3,11,13,84.6,5,7.3,0.7,59.0,Good,No,66.9,Pass
+GEC_DEMO_0899,Riya Joshi 2,E&E,2,3.9,80.4,12,12,75.8,10,7.4,0.2,62.0,Average,Yes,77.7,Pass
+GEC_DEMO_0900,Kavya Fernandes,MECHANICAL,6,4.0,73.8,10,11,73.3,6,7.2,1.5,49.0,Average,No,70.7,Pass
+GEC_DEMO_0901,Mihir Rodrigues 2,E&E,2,3.7,80.4,14,15,75.0,4,6.2,2.5,43.0,Good,No,66.1,Pass
+GEC_DEMO_0902,Darsh Hegde,VLSI,4,4.1,73.6,10,11,74.3,8,6.0,0.5,40.0,Average,Yes,70.5,Pass
+GEC_DEMO_0903,Sarthak Kudalkar 2,IT,1,1.5,86.7,7,9,57.9,6,7.1,2.7,18.0,Good,Yes,63.3,Pass
+GEC_DEMO_0904,Yash Khan 2,IT,6,2.4,85.2,8,9,72.3,10,6.0,1.8,42.0,Good,Yes,70.1,Pass
+GEC_DEMO_0905,Prajakta Salgaonkar 2,COMPUTER,7,3.6,91.3,8,8,69.0,5,6.7,0.6,55.0,Good,Yes,69.9,Pass
+GEC_DEMO_0906,Sahil Velip,VLSI,4,4.4,88.7,9,11,68.3,3,5.7,1.0,47.0,Average,Yes,67.1,Pass
+GEC_DEMO_0907,Mihir Borkar,COMPUTER,7,4.2,88.9,6,8,76.5,9,6.7,2.1,44.0,Good,Yes,76.2,Pass
+GEC_DEMO_0908,Akash Patil,VLSI,2,1.6,68.5,12,15,67.1,10,7.2,1.8,34.0,Good,Yes,64.2,Pass
+GEC_DEMO_0909,Gaurav Tari,IT,1,5.6,79.6,13,13,73.3,5,6.9,1.5,16.0,Average,No,73.5,Pass
+GEC_DEMO_0910,Tanvi Borkar,VLSI,1,3.7,62.8,8,13,78.5,3,7.5,1.3,39.0,Good,Yes,61.7,Pass
+GEC_DEMO_0911,Sana Desai,COMPUTER,1,6.0,88.3,13,13,62.5,6,7.2,3.5,81.0,Good,No,74.7,Pass
+GEC_DEMO_0912,Kavya Mayekar,COMPUTER,8,4.8,82.3,12,15,70.0,4,7.5,2.3,19.0,Good,Yes,69.4,Pass
+GEC_DEMO_0913,Tanvi Pereira 3,MECHANICAL,5,5.4,85.0,12,15,60.2,7,7.4,2.1,22.0,Good,No,72.8,Pass
+GEC_DEMO_0914,Shreya Kudalkar 3,IT,3,4.6,81.3,11,14,68.1,6,7.6,1.7,17.0,Good,Yes,67.6,Pass
+GEC_DEMO_0915,Dhruv Patil,ETC,2,3.2,85.3,8,9,80.4,6,6.8,0.9,32.0,Good,Yes,68.6,Pass
+GEC_DEMO_0916,Vedant Velip,COMPUTER,7,3.5,61.8,11,13,76.5,4,7.7,0.8,60.0,Average,Yes,61.2,Pass
+GEC_DEMO_0917,Bhargavi Desai,COMPUTER,4,5.0,85.5,10,11,50.1,9,7.1,2.2,39.0,Good,Yes,72.1,Pass
+GEC_DEMO_0918,Madhav Borkar,CIVIL,4,3.4,99.8,6,8,59.9,7,7.3,1.5,59.0,Good,Yes,67.8,Pass
+GEC_DEMO_0919,Mihir Chari,E&E,3,1.3,86.0,7,10,75.3,9,7.1,5.4,34.0,Good,Yes,69.2,Pass
+GEC_DEMO_0920,Arjun Prabhu,MECHANICAL,1,3.8,77.7,9,13,38.7,6,6.8,8.0,32.0,Good,No,58.0,Pass
+GEC_DEMO_0921,Sakshi Shetye,IT,5,4.2,95.5,8,11,65.4,7,7.5,0.8,66.0,Good,Yes,74.4,Pass
+GEC_DEMO_0922,Ameya Dessai 2,ETC,5,4.4,85.5,7,11,57.2,5,5.9,3.5,58.0,Good,No,66.2,Pass
+GEC_DEMO_0923,Madhav Borkar 2,VLSI,7,4.8,86.0,8,9,69.9,10,6.2,8.0,19.0,Good,No,76.3,Pass
+GEC_DEMO_0924,Dev Amonkar 2,CIVIL,1,6.5,100.0,12,14,44.2,9,5.8,3.6,51.0,Good,No,77.0,Pass
+GEC_DEMO_0925,Riya Parab 2,E&E,8,1.8,86.9,7,12,65.7,10,7.6,0.8,27.0,Average,Yes,63.7,Pass
+GEC_DEMO_0926,Aditi Rane,MECHANICAL,6,6.2,75.7,8,12,68.7,6,6.8,3.0,18.0,Average,Yes,72.7,Pass
+GEC_DEMO_0927,Sana Rane,COMPUTER,6,4.8,73.7,14,15,48.6,9,7.5,5.7,43.0,Good,Yes,68.6,Pass
+GEC_DEMO_0928,Sai Mayekar 2,IT,4,3.8,93.3,7,8,75.8,9,8.5,4.0,17.0,Good,Yes,76.0,Pass
+GEC_DEMO_0929,Krish Naik,E&E,4,2.0,65.9,11,11,74.1,10,7.7,2.8,43.0,Good,No,68.3,Pass
+GEC_DEMO_0930,Dhruv Amonkar 2,ETC,7,3.9,77.1,8,11,78.3,5,5.4,0.7,53.0,Limited,Yes,70.3,Pass
+GEC_DEMO_0931,Janhavi Fadte 2,IT,3,4.6,75.4,7,14,57.2,5,6.3,1.2,26.0,Good,Yes,54.5,Pass
+GEC_DEMO_0932,Parth Kudalkar,MECHANICAL,1,3.8,92.1,5,9,73.3,9,7.9,0.7,51.0,Good,No,73.1,Pass
+GEC_DEMO_0933,Anushka Dessai 2,COMPUTER,3,3.2,80.0,7,8,68.6,3,7.0,1.4,20.0,Good,Yes,66.7,Pass
+GEC_DEMO_0934,Siddharth Shetye,VLSI,1,3.0,83.9,9,14,79.5,3,7.9,3.8,42.0,Average,Yes,64.6,Pass
+GEC_DEMO_0935,Atharva Rane,COMPUTER,2,2.7,63.3,12,12,77.5,9,8.6,1.1,40.0,Good,Yes,73.1,Pass
+GEC_DEMO_0936,Akash Chari 2,MECHANICAL,1,4.7,77.0,9,11,63.3,8,6.5,2.9,40.0,Good,Yes,70.5,Pass
+GEC_DEMO_0937,Kiran Joshi,ETC,7,4.6,81.7,9,10,71.1,10,9.0,3.8,35.0,Limited,No,75.6,Pass
+GEC_DEMO_0938,Madhav Borkar 3,MECHANICAL,8,5.1,81.6,13,15,77.3,8,7.0,0.5,48.0,Good,Yes,80.4,Pass
+GEC_DEMO_0939,Omkar Dessai,IT,3,2.8,82.0,14,15,68.1,6,7.1,2.9,43.0,Average,No,70.8,Pass
+GEC_DEMO_0940,Madhav Prabhu 2,IT,3,5.6,87.9,7,9,79.2,6,7.8,2.5,22.0,Good,Yes,78.4,Pass
+GEC_DEMO_0941,Bhargavi Kudalkar 3,E&E,7,7.2,84.5,9,10,74.4,7,9.5,0.8,49.0,Average,No,83.0,Pass
+GEC_DEMO_0942,Kavya Rane 4,VLSI,5,3.9,95.4,6,11,72.5,9,7.1,2.5,60.0,Good,Yes,71.5,Pass
+GEC_DEMO_0943,Arya Salgaonkar 2,MECHANICAL,3,5.4,76.8,9,13,63.4,8,8.5,4.4,20.0,Average,No,68.8,Pass
+GEC_DEMO_0944,Omkar Fernandes 4,COMPUTER,4,2.0,80.8,8,9,60.2,8,7.9,0.5,5.0,Good,Yes,62.8,Pass
+GEC_DEMO_0945,Sneha Fadte 2,COMPUTER,8,7.0,77.6,8,10,46.2,9,7.2,0.1,48.0,Good,Yes,74.4,Pass
+GEC_DEMO_0946,Akash Fernandes,COMPUTER,2,4.7,97.6,6,8,46.5,5,7.5,0.3,54.0,Good,No,65.4,Pass
+GEC_DEMO_0947,Akash Velip,IT,4,5.5,94.7,6,8,53.7,10,,8.0,20.0,Good,Yes,77.0,Pass
+GEC_DEMO_0948,Anushka Parab 2,COMPUTER,2,4.2,68.7,8,9,70.7,9,6.9,0.2,67.0,Good,No,71.7,Pass
+GEC_DEMO_0949,Tanvi Pereira 4,VLSI,6,1.7,69.2,7,8,60.8,4,6.0,1.5,26.0,Good,Yes,60.1,Pass
+GEC_DEMO_0950,Nikhil Gawas 2,IT,5,4.5,91.1,6,8,65.9,5,7.8,4.4,59.0,Limited,Yes,72.9,Pass
+GEC_DEMO_0951,Nikhil Salgaonkar,ETC,2,3.8,92.3,10,10,72.1,5,6.3,1.7,54.0,Average,Yes,73.7,Pass
+GEC_DEMO_0952,Neha Pereira 2,COMPUTER,4,5.1,87.4,7,9,41.3,5,7.1,1.6,58.0,Good,Yes,61.6,Pass
+GEC_DEMO_0953,Dev D'Souza,IT,1,2.7,67.4,8,11,67.1,4,5.8,1.6,37.0,Good,No,58.5,Pass
+GEC_DEMO_0954,Anushka D'Souza,ETC,8,0.5,76.3,12,12,93.2,6,6.4,1.6,63.0,Average,Yes,69.6,Pass
+GEC_DEMO_0955,Diya Shirodkar 2,ETC,7,3.7,75.5,10,15,68.3,5,5.8,1.1,27.0,Good,Yes,62.6,Pass
+GEC_DEMO_0956,Esha Khan,COMPUTER,7,3.4,79.4,8,11,59.7,9,7.1,1.1,51.0,Good,No,68.0,Pass
+GEC_DEMO_0957,Sarthak Naik,MECHANICAL,3,4.8,80.2,13,15,63.8,6,6.5,1.2,49.0,Good,No,70.4,Pass
+GEC_DEMO_0958,Omkar Fadte 2,VLSI,7,2.6,65.7,8,8,55.4,8,7.0,2.9,38.0,Good,Yes,60.9,Pass
+GEC_DEMO_0959,Bhargavi Shirodkar 2,COMPUTER,3,3.3,75.2,7,9,72.8,5,8.1,3.5,42.0,Limited,No,65.0,Pass
+GEC_DEMO_0960,Diya Kudalkar 2,COMPUTER,1,3.3,76.6,5,9,94.4,7,8.2,1.9,29.0,Good,No,67.8,Pass
+GEC_DEMO_0961,Riya Velip 4,MECHANICAL,2,2.8,61.0,14,14,93.4,7,5.8,0.5,56.0,Good,Yes,73.2,Pass
+GEC_DEMO_0962,Tanvi Naik 2,ETC,4,4.6,98.8,7,8,47.3,10,5.9,1.6,21.0,Good,Yes,68.3,Pass
+GEC_DEMO_0963,Ameya Shetye 3,COMPUTER,5,3.4,98.8,10,11,63.8,6,7.6,4.9,41.0,Good,No,73.0,Pass
+GEC_DEMO_0964,Janhavi Mayekar,COMPUTER,1,3.1,73.6,11,13,78.7,8,7.3,,5.0,Good,No,71.0,Pass
+GEC_DEMO_0965,Krish Prabhu 3,VLSI,8,2.9,76.6,9,9,63.4,6,7.5,2.8,54.0,Good,Yes,66.0,Pass
+GEC_DEMO_0966,Advait Fadte 3,MECHANICAL,7,3.4,76.9,8,10,94.1,6,7.6,2.7,32.0,Average,Yes,71.7,Pass
+GEC_DEMO_0967,Aarav Fernandes 3,ETC,4,5.9,74.3,6,11,57.6,6,8.0,1.2,38.0,Average,Yes,62.1,Pass
+GEC_DEMO_0968,Darsh Shirodkar,COMPUTER,3,3.5,87.5,11,14,78.9,9,7.4,0.2,32.0,Good,No,79.1,Pass
+GEC_DEMO_0969,Sarthak Fadte,VLSI,5,2.9,71.1,10,10,66.0,8,7.5,0.6,40.0,Good,Yes,65.0,Pass
+GEC_DEMO_0970,Sneha Chari 2,IT,4,4.0,91.3,11,11,60.4,7,7.1,1.9,33.0,Good,No,71.0,Pass
+GEC_DEMO_0971,Prajakta Fadte,IT,6,4.9,88.3,15,15,45.2,3,,2.8,59.0,Average,No,66.0,Pass
+GEC_DEMO_0972,Sneha Rane 3,MECHANICAL,2,3.8,81.9,11,13,71.4,9,7.3,1.4,52.0,Good,No,74.1,Pass
+GEC_DEMO_0973,Samarth Kamat,CIVIL,3,4.4,100.0,7,10,80.1,6,7.6,1.4,23.0,Good,No,78.1,Pass
+GEC_DEMO_0974,Aniket Khan,COMPUTER,1,4.7,90.5,13,13,77.7,8,,1.3,5.0,Good,Yes,82.5,Pass
+GEC_DEMO_0975,Aniket Hegde 2,ETC,5,4.8,78.3,7,10,79.1,6,,0.3,59.0,Good,Yes,72.9,Pass
+GEC_DEMO_0976,Sarthak Mayekar 3,IT,8,4.1,80.0,11,14,71.9,10,7.9,0.4,39.0,Good,Yes,75.3,Pass
+GEC_DEMO_0977,Janhavi Kamat,VLSI,8,1.9,93.7,6,8,72.9,8,5.7,1.2,28.0,Good,No,68.3,Pass
+GEC_DEMO_0978,Madhav Shetye,IT,5,3.7,74.2,11,12,85.0,10,7.4,0.7,47.0,Good,No,80.3,Pass
+GEC_DEMO_0979,Atharva Salgaonkar 2,IT,2,2.9,71.5,12,13,46.4,5,6.8,0.5,5.0,Good,Yes,59.3,Pass
+GEC_DEMO_0980,Sakshi Kamat,E&E,4,4.8,90.2,10,10,82.8,10,8.4,0.3,27.0,Good,No,85.1,Pass
+GEC_DEMO_0981,Shreya Pereira,CIVIL,4,5.5,89.4,11,11,70.2,6,7.9,2.6,,Good,Yes,78.2,Pass
+GEC_DEMO_0982,Avani Dessai,E&E,7,3.3,74.7,6,8,53.9,9,7.9,0.4,22.0,Good,Yes,62.6,Pass
+GEC_DEMO_0983,Janhavi D'Souza,ETC,3,4.8,100.0,7,9,73.2,5,7.3,1.8,13.0,Good,No,75.1,Pass
+GEC_DEMO_0984,Sarthak Borkar 2,COMPUTER,4,4.3,78.1,5,8,47.4,10,7.7,3.6,29.0,Good,Yes,64.4,Pass
+GEC_DEMO_0985,Madhav Prabhu 3,IT,4,3.5,92.5,13,14,78.2,9,7.9,2.0,34.0,Average,Yes,79.3,Pass
+GEC_DEMO_0986,Siddharth Gawas,MECHANICAL,7,5.7,87.0,7,12,67.2,5,6.0,5.3,34.0,Good,Yes,73.7,Pass
+GEC_DEMO_0987,Kavya Dessai,COMPUTER,8,3.2,74.1,6,9,59.0,3,7.2,7.0,54.0,Good,Yes,57.0,Pass
+GEC_DEMO_0988,Sakshi Sawant 2,VLSI,7,2.9,81.1,11,14,89.8,9,7.0,1.0,44.0,Good,No,76.0,Pass
+GEC_DEMO_0989,Avani Naik 3,VLSI,3,2.6,57.6,8,10,46.0,5,7.1,2.5,31.0,Good,Yes,51.8,Pass
+GEC_DEMO_0990,Atharva Dessai,E&E,1,5.2,92.2,7,9,88.2,10,7.9,3.0,43.0,Good,No,86.7,Pass
+GEC_DEMO_0991,Madhav Tari 2,IT,5,2.8,83.0,13,14,80.8,8,6.7,1.6,42.0,Good,Yes,75.6,Pass
+GEC_DEMO_0992,Neha Kudalkar,VLSI,4,2.8,91.9,11,14,54.9,6,6.1,1.4,58.0,Good,Yes,63.2,Pass
+GEC_DEMO_0993,Avani Borkar 2,MECHANICAL,8,5.2,73.9,15,15,66.3,7,6.1,5.5,48.0,Average,No,71.2,Pass
+GEC_DEMO_0994,Gaurav Tari 2,MECHANICAL,1,4.3,80.4,9,10,54.9,4,7.7,2.7,72.0,Good,No,65.5,Pass
+GEC_DEMO_0995,Gaurav Borkar 2,COMPUTER,6,3.6,68.5,10,13,55.9,7,6.1,1.2,45.0,Good,No,61.9,Pass
+GEC_DEMO_0996,Riya Patil,E&E,4,2.7,74.9,10,15,98.0,4,6.7,3.4,32.0,Average,No,68.7,Pass
+GEC_DEMO_0997,Advait Fadte 4,CIVIL,5,4.1,90.0,12,12,58.9,4,7.5,2.2,33.0,Average,Yes,67.5,Pass
+GEC_DEMO_0998,Sakshi Hegde 2,COMPUTER,3,2.4,87.5,11,14,71.1,6,6.4,3.3,15.0,Limited,No,68.9,Pass
+GEC_DEMO_0999,Chinmay Desai,IT,1,4.1,95.7,9,15,80.9,5,5.6,1.0,22.0,Good,No,73.4,Pass
+GEC_DEMO_1000,Bhargavi Velip 2,ETC,7,4.0,92.9,7,8,65.7,3,7.0,1.7,38.0,Good,No,68.4,Pass
