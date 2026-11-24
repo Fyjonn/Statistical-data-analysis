@@ -46,7 +46,7 @@ Wybrane dane pochodzą ze zbioru "Student Performance Dataset" (z platformy Kagg
 ## 2. Przyotowanie tabeli z danymi.
 
 ```{r 1}
-students <- read_csv("PCA i MDS/student_data.csv")
+students <- read_csv("student_data.csv")
 View(students)
 data <- students %>%
   select(-c(student_id, branch, semester, internet_access, study_group, pass_status))
