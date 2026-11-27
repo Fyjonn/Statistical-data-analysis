@@ -21,6 +21,8 @@ library(dplyr)
 library(psych)
 library(tidyr)
 library(factoextra)
+library(MASS)
+library(ggplot2)
 ```
 
 # 1. Opis danych i przygotowanie ramki danych.
@@ -156,3 +158,53 @@ cor(data_clean, pca$x[, 1:4])^2
 biplot(pca)
 
 ```
+
+# MDS
+
+## Skalowanie Kruskala 
+
+Ze względu, że dotyczy zmiennych, które są mierzone na skali przedziałowej lub ilorazowej, będziemy brać pod uwagę
+wszystkie zmienne oprócz zmiennej "Liga", zmienna "Drużyna" będzie służyła jako etykieta obiektów.
+
+```{r 8}
+zmienne_kruskal <- c(
+  "Bramki",
+  "Strzaly_na_mecz",
+  "Zolte_kartki",
+  "Czerwone_kartki",
+  "Posiadanie_pilki",
+  "Celne_podania",
+  "Wygrane_pojedynki_powietrzne",
+  "Ocena"
+)
+# standaryzacja
+data_kruskal <- data %>%
+  mutate(across(all_of(zmienne_kruskal), ~ as.numeric(scale(.))))
+macierz_cech <- as.matrix(data_kruskal[, zmienne_kruskal])
+rownames(macierz_cech) <- data_kruskal$Druzyna
+# macierz odleglosci
+d <- dist(macierz_cech, method = "euclidean")
+# k = 2
+set.seed(123)
+mds_kruskal <- isoMDS(d, k = 2)
+mds_kruskal$stress
+df_mds <- data.frame(
+  Druzyna = rownames(mds_kruskal$points),
+  Dim1 = mds_kruskal$points[, 1],
+  Dim2 = mds_kruskal$points[, 2],
+  Liga = data_kruskal$Liga[match(rownames(mds_kruskal$points), data_kruskal$Druzyna)]
+)
+
+ggplot(df_mds, aes(x = Dim1, y = Dim2, color = Liga, label = Druzyna)) +
+  geom_point(size = 3) +
+  geom_text(vjust = -0.8, size = 3, show.legend = FALSE) +
+  labs(
+    title = "Skalowanie wielowymiarowe Kruskala (isoMDS)",
+    subtitle = paste0("Stress: ", round(mds_kruskal$stress, 2), "%"),
+    x = "Wymiar 1",
+    y = "Wymiar 2",
+    color = "Liga"
+  ) +
+  theme_light()
+```
+
